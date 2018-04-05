@@ -1,6 +1,4 @@
-# Công nghệ phần mềm
-
-### Nhập môn
+## Giới thiệu
 
 ---
 
@@ -48,8 +46,6 @@ bugati.start();
 
 ---
 
-@title[Tài liệu gitpitch]
+### (Tiếp tục)
 
-### Tài liệu về GitPitch
-### [Gitpitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
 
