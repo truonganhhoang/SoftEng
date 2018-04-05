@@ -1,10 +1,10 @@
 # Công nghệ phần mềm
 
-## Nhập môn
+### Nhập môn
 
 ---
 
-## Giới thiệu về ngôn ngữ lập trình TypeScript
+### Giới thiệu về ngôn ngữ lập trình TypeScript
 
 - TypeScript là một ngôn ngữ nâng cao của Javascript 
   + Dễ dàng hơn trong phát triển các dự án lớn.
@@ -14,7 +14,7 @@
 
 ---
 
-## Ví dụ 
+### Ví dụ 
 
 @title[Đoạn chương trình TypeScript]
 
@@ -51,5 +51,5 @@ bugati.start();
 @title[Tài liệu gitpitch]
 
 ### Tài liệu về GitPitch
-### [Gitpitch Wiki]](https://github.com/gitpitch/gitpitch/wiki)
+### [Gitpitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
 
