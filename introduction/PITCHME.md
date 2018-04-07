@@ -12,12 +12,22 @@
 ### Ngôn ngữ lập trình là gì?
 
 - Ngôn ngữ lập trình đóng vai trò trung gian giữa người và máy tính. Chúng hình thức hóa ý tưởng của lập trình viên sang cách  cách máy tính có thể hiểu và thực hiện.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
 - Có rất nhiều ngôn ngữ lập trình khác nhau. Chúng phân biệt bằng các yếu tố sau: 
 	+ Cú pháp của ngôn ngữ.
 	+ Thứ tự thực hiện của các mã.
 	+ Ý nghĩa của các mã.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
 - Một chương trình có thể có cú pháp hợp lệ nhưng lại vô nghĩa. Ví dụ: "foo == foo" gần như vô nghĩa nhưng vẫn là một cú pháp hợp lệ.
-- Việc thống nhất trong cùng một ngôn ngữ tạo sự đồng nhất trong các lập trình và đọc hiểu chương trình cùng một ngôn ngữ của các nhà phát triển.
+- Mỗi ngôn ngữ lập trình lại có các đặc ngữ riêng của mình. Việc sử dụng chúng tạo sự thống nhất trong việc lập trình và đọc hiểu chương trình của các nhà phát triển.
 
 ---
 
