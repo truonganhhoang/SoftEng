@@ -46,23 +46,23 @@
 
 ### Ngôn ngữ lập trình là gì?
 
-- Ngôn ngữ lập trình hay được phân chia thành:
+- Ngôn ngữ lập trình có thể phân chia thành:
 	+ Ngôn ngữ lập trình biên dịch.
 	+ Ngôn ngữ lập trình thông dịch.
 
 ---
 
 ### Ngôn ngữ lập trình là gì?
-- Ngôn ngữ lập trình thông là loại ngôn ngữ khi chương trình chạy đến dòng lệnh nào thì dòng đó sẽ được dịch thành mã máy để chạy.
+- Đối với ngôn ngữ lập trình thông dịch, khi chương trình chạy đến dòng lệnh nào (theo thứ tự từ trên xuống dưới) thì dòng đó mới được dịch thành mã máy để chạy.
 - Để hiểu về ngôn ngữ biên dịch, ta có 2 ví dụ sau:
-
+	+ Ví dụ 1:
 ~~~python
 	declare m1() {
 		print 'm1'
 	}
 	m1()
 ~~~
-
+	+ Ví dụ 2:
 ~~~python
 	m1()
 	declare m1() {
@@ -70,6 +70,163 @@
 	}
 ~~~
 
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Với ví dụ 1, chương trình sẽ chạy bình thường. Hàm m1() được định nghĩa ở trên và sẽ được gọi ở dưới và kết quả là in ra m1.
+- Với ví dụ 2, chương trình sẽ chạy đến lệnh gọi hàm m1(). Tuy nhiên đến đây thì máy không biết hàm m1() là gì và kết quả là chương trình sẽ dừng lại và báo lỗi.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Đối với ngôn ngữ lập trình biên dịch, khi chương trình sẽ được dịch (bằng trình biên dịch) toàn bộ thành mã máy rồi mới thực thi.
+- Quá trình biên dịch sẽ giúp chúng ta phát hiện ra các lỗi cú pháp và kiểm tra tính chính xác trong mã nguyồn. Đặc biệt là thứ tự trong mã nguồn không còn là vấn đề như với ngôn ngữ lập trình thông dịch.   
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Một ví dụ với Java: 
+~~~java
+	class myClass {
+		public static void main(String[] args){
+			new myClass().m1();
+		}
+
+		public m1() {
+			System.out.println('m1');
+		}
+	}
+~~~
+- Ví dụ trên sẽ chạy bình thường cho dù việc khai báo hàm m1() ở phía sau lời gọi hàm.
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Một ví dụ khác với JavaScript: 
+~~~javascript
+	m1();
+	function m1() {
+		console.log('m1');
+	}
+~~~
+- Ví dụ trên cũng sẽ chạy bình thường cho dù việc khai báo hàm m1() ở phía sau lời gọi hàm và javascript là một ngôn ngữ thông dịch. Lí do vì trong thực tế,mọi trình duyệt sẽ dùng trình biên dịch JIT để biên dịch mã JS thành mã máy trước khi thực hiện.
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Ngoài ra, ngôn ngữ lập trình còn có thể phân chia thành:
+	+ Ngôn ngữ kiểu tĩnh.
+	+ Ngôn ngữ kiểu động.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Đối với ngôn ngữ lập trình kiểu tĩnh, ta khai báo 1 biến với kiểu dữ liệu cụ thể của nó. Và sau đó, trình biên dịch sẽ đi kiểm tra xem mọi thao tác với biến đó có thích hợp với kiểu dữ liệu của nó hay không.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Xét ví dụ sau:
+~~~java
+	int age;
+	age = 10;
+	age = 100;
+	age = false;
+	age = '10;'
+~~~
+- Với hai thao tác gán age bằng 10 và 100, chúng thực hiện bình thường vì chúng phù hợp với kiểu int của biến age.
+- Nhưng 2 thao tác gán còn lại sẽ báo lỗi vì false và '10' không phù hợp với kiểu int của biến age.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Với ngôn ngữ kiểu động, chúng sẽ tự kết hợp kiểu dữ liệu với giá trị của biến.
+- Xét ví dụ sau:
+~~~javascript
+	var age;
+	age = 10;
+	age = 100;
+	age = false;
+	age = '10;'
+~~~
+- Một phép gán trên đều thực hiện được. Biến age sẽ nhận các kiểu int, int, boolean và string tương ứng.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Với cách hoạt động như vậy, ngôn ngữ kiểu động sẽ cực kì linh hoạt khi ta có thể thay đổi kiểu của biến giữa chương trình. 
+- Tuy nhiên, việc gỡ lỗi với ngôn ngữ kiểu động sẽ khó khăn hơn so với ngôn ngữ kiểu tĩnh.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Xét một ví dụ tương tự ngôn ngữ kiểu tĩnh với TypeScript:
+~~~typescript
+	var age: number;
+	age = 10;
+	age = 100;
+	age = false;
+	agr = '10';
+~~~
+- Ta đã khai báo và chỉ định kiểu cho biến age là number. Vì vậy phép gán với 10 và 100 vẫn sẽ thực hiện được còn 2 phép còn lại sẽ báo lỗi.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- ta cũng có thể xét một ví dụ tương tự ngôn ngữ kiểu động với TypeScript:
+~~~typescript
+	var age;
+	age = 10;
+	age = 100;
+	age = false;
+	agr = '10';
+~~~
+- Bên trên hoàn toàn là một đoạn mã JS hợp lệ về mặt cú pháp. Tuy nhiên, kết quả khi chạy sẽ tương tự với ví dụ bên trên.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Đây là một cách thức hoạt động của JS. Khi ta khai báo biến age, ta hoàn toàn không khai báo kiểu number cho nó. Tuy nhiên, khi ta thực hiện phép gán giá trị 10 đầu tiên cho biến age, JS sẽ ngầm định ta đã gán kiểu number cho age và giữ kiểu đó cho age đến hết chương trình.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Tuy nhiên, ta có thể gán biến age như sau để kiểu của age có thể thay đổi mọi lúc trong chương trình như sau:
+~~~typescript
+	var age: any;
+	age = 10;
+	age = 100;
+	age = false;
+	agr = '10';
+~~~
+- Đoạn mã trên sẽ hoạt động bình thường mà không gặp bất cứ lỗi nào.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Tổng kết lại từ những ví dụ trên, ta có 
+	+ Java, JavaScript và TypeScript giống nhau là đều có sử dụng trình biên dịch.
+	+ Java là một ngôn ngữ kiểu tĩnh.
+	+ JavaScript là một ngôn ngữ kiểu động.
+	+ TypeScript là ngôn ngữ kiểu tĩnh nhưng có thể tùy chọn như ngôn ngữ kiểu động. Đặc biệt là TypeScript còn được hưởng lợi nhờ từ hệ sinh thái phong phú và các thư viện sẵn có của JS.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Kết luận
 ---
 
 ### Giới thiệu về ngôn ngữ lập trình TypeScript
