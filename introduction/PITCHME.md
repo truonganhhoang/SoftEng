@@ -40,8 +40,36 @@
 
 ### Ngôn ngữ lập trình là gì?
 
-- Chúng nên nên quan tâm đến sự khác biệt giữa mã code và cách chúng chạy. Sự khác biệt đó thường sinh ra lỗi và đó lí do các trình gỡ lỗi rất quan trọng.
+- Chúng ta nên nên quan tâm đến sự khác biệt giữa mã code và cách chúng chạy. Sự khác biệt đó thường sinh ra lỗi và đó lí do các trình gỡ lỗi rất quan trọng.
 - Khi gỡ lỗi(debug), bạn nên đặt một điểm dừng.Sau đó, bạn xem xét sự khác biệt giữa các biến trong chương trình và trạng thái của chúng là gì? Tốt nhất là bạn nên xem xét từng dòng code của chương trình có thể hiểu được tất cả các trạng thái mà chương trình có thể gặp phải.
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Ngôn ngữ lập trình hay được phân chia thành:
+	+ Ngôn ngữ lập trình biên dịch.
+	+ Ngôn ngữ lập trình thông dịch.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+- Ngôn ngữ lập trình thông là loại ngôn ngữ khi chương trình chạy đến dòng lệnh nào thì dòng đó sẽ được dịch thành mã máy để chạy.
+- Để hiểu về ngôn ngữ biên dịch, ta có 2 ví dụ sau:
+
+~~~python
+	declare m1() {
+		print 'm1'
+	}
+	m1()
+~~~
+
+~~~python
+	m1()
+	declare m1() {
+		print 'm1'
+	}
+~~~
+
 ---
 
 ### Giới thiệu về ngôn ngữ lập trình TypeScript
