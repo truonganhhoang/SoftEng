@@ -62,6 +62,11 @@
 	}
 	m1()
 ~~~
+	+ Với ví dụ này, chương trình sẽ chạy bình thường. Hàm m1() được định nghĩa ở trên và sẽ được gọi ở dưới và kết quả là in ra m1.
+---
+
+### Ngôn ngữ lập trình là gì?
+
 	+ Ví dụ 2:
 ~~~python
 	m1()
@@ -69,13 +74,7 @@
 		print 'm1'
 	}
 ~~~
-
----
-
-### Ngôn ngữ lập trình là gì?
-
-- Với ví dụ 1, chương trình sẽ chạy bình thường. Hàm m1() được định nghĩa ở trên và sẽ được gọi ở dưới và kết quả là in ra m1.
-- Với ví dụ 2, chương trình sẽ chạy đến lệnh gọi hàm m1(). Tuy nhiên đến đây thì máy không biết hàm m1() là gì và kết quả là chương trình sẽ dừng lại và báo lỗi.
+	+ Với ví dụ này, chương trình sẽ chạy đến lệnh gọi hàm m1(). Tuy nhiên đến đây thì máy không biết hàm m1() là gì và kết quả là chương trình sẽ dừng lại và báo lỗi.
 
 ---
 
@@ -222,11 +221,6 @@
 	+ JavaScript là một ngôn ngữ kiểu động.
 	+ TypeScript là ngôn ngữ kiểu tĩnh nhưng có thể tùy chọn như ngôn ngữ kiểu động. Đặc biệt là TypeScript còn được hưởng lợi nhờ từ hệ sinh thái phong phú và các thư viện sẵn có của JS.
 
----
-
-### Ngôn ngữ lập trình là gì?
-
-- Kết luận
 ---
 
 ### Giới thiệu về ngôn ngữ lập trình TypeScript
