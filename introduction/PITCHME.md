@@ -87,7 +87,7 @@
 ### Ngôn ngữ lập trình là gì?
 
 - Đối với ngôn ngữ lập trình biên dịch, khi chương trình sẽ được dịch (bằng trình biên dịch) toàn bộ thành mã máy rồi mới thực thi.
-- Quá trình biên dịch sẽ giúp chúng ta phát hiện ra các lỗi cú pháp và kiểm tra tính chính xác trong mã nguyồn. Đặc biệt là thứ tự trong mã nguồn không còn là vấn đề như với ngôn ngữ lập trình thông dịch.   
+- Quá trình biên dịch sẽ giúp chúng ta phát hiện ra các lỗi cú pháp và kiểm tra tính chính xác trong mã nguồn. Đặc biệt là thứ tự trong mã nguồn không còn là vấn đề như với ngôn ngữ lập trình thông dịch.   
 
 ---
 
