@@ -26,7 +26,7 @@
         -  Độ tin cậy
         -  Độ phức tạp
         -  Khả năng kiểm tra, bảo trì
-        vd: người dùng có thể đăng nhập bằng tài khoản google, phần mềm có khả năng chạy trên cả điện thoại lẫn máy tính,..
+        + vd: người dùng có thể đăng nhập bằng tài khoản google, phần mềm có khả năng chạy trên cả điện thoại lẫn máy tính,..
 - Mỗi bên liên quan( stackholders) có thể có các yêu cầu phi chức năng khác nhau
     - Khách hàng quan tâm đến tính dễ sử dụng, hiệu năng, khả năng nâng cấp,..
     - Đội phát triển quan tâm đến độ tin cậy, độ phức tạp, khả năng kiểm thử, bảo trì,...
