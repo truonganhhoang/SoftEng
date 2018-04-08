@@ -59,8 +59,8 @@
 
 ### Ngôn ngữ lập trình là gì?
 
-- Để hiểu về ngôn ngữ biên dịch, ta có 2 ví dụ sau:
-	+ Ví dụ 1:
+- Để hiểu về ngôn ngữ biên dịch, ta có 2 ví dụ sau.
+- Ví dụ 1:
 ~~~python
 	declare m1() {
 		print 'm1'
@@ -73,7 +73,7 @@
 
 ### Ngôn ngữ lập trình là gì?
 
-	+ Ví dụ 2:
+- Ví dụ 2:
 ~~~python
 	m1()
 	declare m1() {
