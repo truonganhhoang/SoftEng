@@ -9,6 +9,7 @@
 - Đặc tả hệ thống phần mềm đóng một vai trò rất quan trọng trong việc kết nối khách hàng với đội ngũ phát triển phần mềm:
     -  Khách hàng có thể chắc chắn phần mềm làm ra sẽ có những tính năng ( một cách chi tiết) mà họ muốn
     -  Đội phát triển sử dụng tài liệu này để triển khai thiết kế và cài đặt những tính năng và khách hàng yêu cầu
+---
 - Trong các phương thức theo kiểu agile, tài liệu đặc tả một hệ thống sẽ được hoàn tất trong giai đoạn cuối của quá trình xây dựng hệ thống vì:
     - Khi lập trình viên bắt tay vào xây dựng chi tiết ở các tầng phía dưới sẽ nảy sinh một số vấn đề không lường trước
     - => Phải thay chỉnh sửa tài liệu và cập nhật với khách hàng.
