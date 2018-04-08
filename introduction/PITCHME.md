@@ -31,6 +31,19 @@
 
 ---
 
+### Ngôn ngữ lập trình là gì?
+
+- Ngôn ngữ lập trình hầu như không có các đặc ngữ chỉ để miêu tả một ngoại lệ duy nhất. Điều này dễ gây khó khăn cho việc hiểu chương trình chạy thế nào.
+- Ngôn ngữ lập trình có tính bất biến. Một đối tượng một khi đã được khai báo sẽ không bị thay đổi trong suốt chương trình.
+ 
+---
+
+### Ngôn ngữ lập trình là gì?
+
+- Chúng nên nên quan tâm đến sự khác biệt giữa mã code và cách chúng chạy. Sự khác biệt đó thường sinh ra lỗi và đó lí do các trình gỡ lỗi rất quan trọng.
+- Khi gỡ lỗi(debug), bạn nên đặt một điểm dừng.Sau đó, bạn xem xét sự khác biệt giữa các biến trong chương trình và trạng thái của chúng là gì? Tốt nhất là bạn nên xem xét từng dòng code của chương trình có thể hiểu được tất cả các trạng thái mà chương trình có thể gặp phải.
+---
+
 ### Giới thiệu về ngôn ngữ lập trình TypeScript
 
 - TypeScript là một ngôn ngữ nâng cao của Javascript 
