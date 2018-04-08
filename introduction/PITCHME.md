@@ -54,6 +54,11 @@
 
 ### Ngôn ngữ lập trình là gì?
 - Đối với ngôn ngữ lập trình thông dịch, khi chương trình chạy đến dòng lệnh nào (theo thứ tự từ trên xuống dưới) thì dòng đó mới được dịch thành mã máy để chạy.
+
+---
+
+### Ngôn ngữ lập trình là gì?
+
 - Để hiểu về ngôn ngữ biên dịch, ta có 2 ví dụ sau:
 	+ Ví dụ 1:
 ~~~python
@@ -63,6 +68,7 @@
 	m1()
 ~~~
 	+ Với ví dụ này, chương trình sẽ chạy bình thường. Hàm m1() được định nghĩa ở trên và sẽ được gọi ở dưới và kết quả là in ra m1.
+	
 ---
 
 ### Ngôn ngữ lập trình là gì?
