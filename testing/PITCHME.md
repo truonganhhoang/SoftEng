@@ -4,18 +4,18 @@
 
 ---
 
-### Tiêu đề 1
+### Mục đích của việc test
 
-- Ý 1
-    - Ý phụ 1
-- Ý 2
-    - Ý phụ 1
+- Đảm bảo code thực thi đúng đặc tả
+    - Liệu code đã làm đúng nhiệm vụ
+- Tìm những lỗi trong code
+- Hiểu được chỗ mà ta có thể tìm được lỗi
 
 ---
 
-### Tiêu đề 1
+### Không phải mục tiêu (non-goal)
 
-- Ý 1
-    - Ý phụ 1
+- Đảm bảo hệ thống không lỗi
+    - Vì không có đủ thời gian trong hệ thống của ta
 - Ý 2
     - Ý phụ 1
