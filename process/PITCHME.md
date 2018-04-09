@@ -40,5 +40,9 @@
 ---
 #### Thu thập yêu cầu( Requirements Elicitation)
 - Quá trình hoàn thiện đặc tả phần mềm là lặp đi lặp lại các bước:
- Thu thập(Elicitation) <=> Phân tích(Analysis) -> Thay đổi(Reification) -> Thẩm định(Validation)
-- Trong quá trình thu thập  
+ Thu thập(Elicitation) <=> Phân tích(Analysis) -> Cụ thể hóa(Reification) -> Thẩm định(Validation)
+- Trong bước thu thập, các bên liên quan sẽ cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
+- Trong bước phân tích, chúng ta sẽ nhìn lại những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
+- Trong bước cụ thể hóa, chúng ta viết các yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
+- Trong bước thẩm định, chúng ta mang danh sách các yêu cầu để xác nhận lại với khách hàng
+--- 
