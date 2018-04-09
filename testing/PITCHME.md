@@ -106,3 +106,9 @@
 ### Line và Statement Coverage
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_5.jpg?raw=true)
+
+### Line và Statement Coverage
+
+- statement coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_6.jpg?raw=true)
