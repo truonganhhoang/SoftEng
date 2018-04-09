@@ -13,7 +13,6 @@
     - Khi lập trình viên bắt tay vào xây dựng chi tiết ở các tầng phía dưới sẽ nảy sinh một số vấn đề không lường trước
     => Phải chỉnh sửa tài liệu đặc tả và cập nhật với khách hàng.
 ---
-
 #### Xử lý các yêu cầu (Requirements Process)
 - Các yêu cầu quy trình được chia ra làm 2 nhánh chính:
     - Các yêu cầu chức năng (Những gì hệ thống có thể thực hiện ?)
@@ -31,7 +30,6 @@
 - Lưu ý: Khi làm tài liệu về yêu cầu ta chỉ cần chỉ rõ những việc hệ thống sẽ làm chứ không cần quan tâm hệ thống sẽ làm những điều đó bằng cách nào
 
 ---
-
 #### Đặc điểm của các yêu cầu( Requirements Properties)
 - Các yêu cầu tính năng phải đảm bảo 4 thứ:
 	- Hoàn thiện
@@ -40,7 +38,7 @@
 	- Xúc tích	
 	
 ---
-
 #### Thu thập yêu cầu( Requirements Elicitation)
-- Quá trình hoàn thiện đặc tả phần mềm là lặp đi lặp lại các bước Thu thập(Elicitation) <=> Phân tích(Analysis) -> Thay đổi(Reification) -> Thẩm định(Validation)
-- 
+- Quá trình hoàn thiện đặc tả phần mềm là lặp đi lặp lại các bước:
+ Thu thập(Elicitation) <=> Phân tích(Analysis) -> Thay đổi(Reification) -> Thẩm định(Validation)
+- Trong quá trình thu thập  
