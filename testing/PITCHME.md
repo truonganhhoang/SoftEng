@@ -75,7 +75,7 @@
 
 - Test 1: turtle.hit(new Mario({direction: down}));
 
-![](./imgs/white-box_1.jpg)
+![](https://octodex.github.com/images/yaktocat.png)
 
 ---
 
@@ -89,6 +89,6 @@
 
 - Test 2: turtle.hit(new Mario({direction: right, state: big}));
 
-![](/imgs/white-box_3.jpg)
-![](/imgs/white-box_4.jpg)
+![](./imgs/white-box_3.jpg)
+![](./imgs/white-box_4.jpg)
 
