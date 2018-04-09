@@ -75,7 +75,7 @@
 
 - Test 1: turtle.hit(new Mario({direction: down}));
 
-![](https://octodex.github.com/images/yaktocat.png)
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_1.jpg?raw=true)
 
 ---
 
