@@ -73,6 +73,12 @@
 
 ### Line và Statement Coverage
 
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_0.jpg?raw=true)
+
+---
+
+### Line và Statement Coverage
+
 - Test 1: turtle.hit(new Mario({direction: down}));
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_1.jpg?raw=true)
@@ -81,7 +87,7 @@
 
 ### Line và Statement Coverage
 
-![](./imgs/white-box_2.jpg)
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_2.jpg?raw=true)
 
 ---
 
@@ -89,6 +95,6 @@
 
 - Test 2: turtle.hit(new Mario({direction: right, state: big}));
 
-![](./imgs/white-box_3.jpg)
-![](./imgs/white-box_4.jpg)
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_3.jpg?raw=true)
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_4.jpg?raw=true)
 
