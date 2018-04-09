@@ -89,6 +89,6 @@
 
 - Test 2: turtle.hit(new Mario({direction: right, state: big}));
 
-![](./imgs/white-box_3.jpg)
-![](./imgs/white-box_4.jpg)
+![](/imgs/white-box_3.jpg)
+![](/imgs/white-box_4.jpg)
 
