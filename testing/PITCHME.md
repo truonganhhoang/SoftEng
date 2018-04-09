@@ -96,5 +96,13 @@
 - Test 2: turtle.hit(new Mario({direction: right, state: big}));
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_3.jpg?raw=true)
+
+### Line và Statement Coverage
+
+- Test 2: turtle.hit(new Mario({direction: right, state: big}));
+
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_4.jpg?raw=true)
 
+### Line và Statement Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_5.jpg?raw=true)
