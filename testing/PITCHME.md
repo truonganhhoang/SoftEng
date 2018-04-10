@@ -65,6 +65,11 @@
 
 - VD1: hàm cho một Boolean và trả về một Boolean.
     - Không gian trạng thái: 2 trạng thái: true/false
+
+---
+
+### Giới thiệu Black box testing
+
 - VD2: hàm cho 2 số a,b, trả về true nếu a lớn hơn b
     - Trong TypeScript kiểu number từ -1.79e308 đến 1.79e308 (3.58e308 giá trị)
     - Tạo bảng với giá trị cột ứng với a, giá trị dòng ứng với b thì t có (3.58e308)^2 = 1.28e617 ô trong bảng, ứng với số trường hợp của đầu vào.
@@ -155,7 +160,7 @@
         - 1000ms - 1min => trả về giây
         - 1min - 1h => trả về phút và giây
         - duration > 1h => trả về giờ, phút giây
-    - Thử chọn input như VD trước: -5,-1,0,1,5 => không phụ hợp vì chúng ta muốn kiểm tra các miền output.
+    - Thử chọn input như VD trước: -5,-1,0,1,5 => không phụ hợp để kiểm tra các miền output.
     - Nên chọn input: 0, 1000, 60k, 3.6m để kiểm tra mỗi miền output.
 
 ---
@@ -208,10 +213,9 @@
 - Trở về ví dụ hàm isGreater(a: number, b: number)
     - chúng ta đã thử với -5, -1, 0, 1, 5
     - giờ tiếp tục thử với các input không mong muốn:
-        - Vô cùng không thể mã hóa, nên kiểu số trong lập trình có giá trị giới hạn
-            - VD: TypeScript dùng 53 bytes lưu trữ khoảng số - 1.79e308 đến 1.79e308
+        - Trong lập trình, vô cùng không thể mã hóa, nên kiểu số có giá trị lớn/nhỏ nhất giới hạn
         - khi giá trị số vượt qua giới hạn trên thì gây ra number roll over làm sai giá trị gây ra hậu quả khôn lường.
-    - vậy cần kiểm thử chúng trong tình trạng tập trung cao (đảm bảo an toàn cao).
+- Vậy cần kiểm thử chúng trong tình trạng tập trung cao (đảm bảo an toàn cao).
 
 ---
 
