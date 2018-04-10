@@ -31,39 +31,25 @@
 ### Nội dung chính
 
 - Giới thiệu
-    - Vấn đề về white box testing
-    - Giới thiệu black box testing
 - Phân chia lớp tương đương
 - Phân chia input
-    - Giới thiệu
-    - Ví dụ Mario
 - Phân chia output
-    - Giới thiệu
-    - Áp dụng sang ví dụ Mario
 - Phân tích giá trị biên
-    - Giới thiệu
-    - Ví dụ Mario
-    - Nội dung
-    - Kết luận
 
 ---
 
-### Giới thiệu
-#### Vấn đề whitebox testing:
+### Vấn đề whitebox testing:
 
 - Vấn đề:
     - Trong white box testing, chúng ta có quyền truy cập đầy đủ tới mã nguồn của hệ thống nhưng nếu không thì sẽ gặp khó khăn.
     - Whitebox testing có rất nhiều phức tạp. Việc hiểu code để viết test case phù hợp là quá nặng và khó khăn.
-- Giải quyết:
     - Người thích hợp tạo test case whitebox là chính nhà phát triển.
-- Vấn đề nảy sinh:
-    - Nhà phát triển có thể tạo lỗi hệ thống trong test họ tạo.
-##### Giải pháp: BLACK BOX TESTING
+    - Tuy nhiên Nhà phát triển có thể tạo lỗi hệ thống trong test họ tạo.
+- Giải pháp: BLACK BOX TESTING
 
 ---
 
-### Giới thiệu
-#### Giới thiệu Black box testing
+### Giới thiệu Black box testing
 
 - Tập trung vào đầu vào, đầu ra, những gì hệ thống làm thay vì tập trung vào code được cài đặt như thế nào.
 - Nhược điểm: 
@@ -75,8 +61,7 @@
 
 ---
 
-### Giới thiệu
-#### Giới thiệu Black box testing
+### Giới thiệu Black box testing
 
 - VD1: hàm cho một Boolean và trả về một Boolean.
     - Không gian trạng thái: 2 trạng thái: true/false
@@ -86,7 +71,7 @@
     - Không gian trạng thái: 1.28e617 trạng thái (lớn hơn rất nhiều VD1)
     - Nếu muốn kiểm tra mọi trạng thái là điều không thể
     - Đây vẫn còn là VD đơn giản.
-##### Làm thế nào để xử lí quá tải này?
+- Làm thế nào để xử lí quá tải này?
 
 ---
 
@@ -101,7 +86,6 @@
 ---
 
 ### Phân chia input
-#### Giới thiệu
 
 - VD: Hàm isGreater(a: number, b: number)
     - Input a,b là một số từ 0 đến vô cùng.
@@ -116,7 +100,6 @@
 ---
 
 ### Phân chia input
-#### Ví dụ Mario
 
 - VD: Mario lao vào địch thì Mario bị thương, các địch lao vào nhau thì không sao, mario nhảy qua boss, boss có thể còn sống
     - yêu cầu thiết kế test case chỉ với các thông tin trên
@@ -129,7 +112,6 @@
 ---
 
 ### Phân chia input
-#### Ví dụ Mario
 
 - Ta có bảng ứng với các trường hợp không gian trạng thái với:
     - Dòng là 6 loại nhân vật
@@ -148,7 +130,6 @@
 ---
 
 ### Phân chia input
-#### Ví dụ Mario
 
 - So sánh với White box testing ở VD này:
     - Với white box testing cần 6 test case
@@ -160,7 +141,6 @@
 ---
 
 ### Phân chia output
-#### Giới thiệu
 
 - là loại phân chia lớp diễn ra trên output
 - xem xét các kết quả mong đợi và thiết kế test case để xác định miền output mong muốn.
@@ -168,7 +148,6 @@
 ---
 
 ### Phân chia output
-#### Giới thiệu
 
 - VD: hàm typescript: 
     - humanize(duration: number):string
@@ -183,7 +162,6 @@
 ---
 
 ### Phân chia output
-#### Áp dụng sang ví dụ Mario
 
 - VD: Hàm typescript
     - setVelocity(vx: number, vy: number): Direction
@@ -197,7 +175,6 @@
 ---
 
 ### Phân tích giá trị biên
-#### Giới thiệu
 
 - Các thảo luận từ trước chỉ bàn về các giá trị hợp lệ của input và output.
 - Chương trình không phải lúc nào cũng gặp các giá trị hợp lệ.
@@ -207,7 +184,6 @@
 ---
 
 ### Phân tích giá trị biên
-#### Giới thiệu
 
 - VD: Hệ thống quản lí audio game Mario hỗ trợ 2 định dạng MP3 và OGG.
     - Đảm bảo khi cho file input với định dạng không hợp lệ (FLAC, VP9) vào hệ thống thì hệ thống không bị treo hoặc cư xử theo cách đã định sẵn
@@ -242,8 +218,7 @@
 
 ---
 
-### Phân tích giá trị biên
-#### Kết luận
+### Kết luận
 
 - Cuối cùng, chúng ta không thể kiểm tra toàn diện chương trình của chúng ta. Có quá nhiều inputs và outputs để kiểm tra.
 - Điều chúng ta có thể làm là chia nhỏ không gian input, output để chúng ta có thể lấy mẫu từ các phần đó.
