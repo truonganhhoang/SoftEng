@@ -100,8 +100,8 @@
 
 ---
 
-#### Phân chia input
-##### Giới thiệu
+### Phân chia input
+#### Giới thiệu
 
 - VD: Hàm isGreater(a: number, b: number)
     - Input a,b là một số từ 0 đến vô cùng.
@@ -115,8 +115,8 @@
 
 ---
 
-#### Phân chia input
-##### Ví dụ Mario
+### Phân chia input
+#### Ví dụ Mario
 
 - VD: Mario lao vào địch thì Mario bị thương, các địch lao vào nhau thì không sao, mario nhảy qua boss, boss có thể còn sống
     - yêu cầu thiết kế test case chỉ với các thông tin trên
@@ -128,8 +128,8 @@
 
 ---
 
-#### Phân chia input
-##### Ví dụ Mario
+### Phân chia input
+#### Ví dụ Mario
 
 - Ta có bảng ứng với các trường hợp không gian trạng thái với:
     - Dòng là 6 loại nhân vật
@@ -147,8 +147,8 @@
 
 ---
 
-#### Phân chia input
-##### Ví dụ Mario
+### Phân chia input
+#### Ví dụ Mario
 
 - So sánh với White box testing ở VD này:
     - Với white box testing cần 6 test case
@@ -159,16 +159,16 @@
 
 ---
 
-#### Phân chia output
-##### Giới thiệu
+### Phân chia output
+#### Giới thiệu
 
 - là loại phân chia lớp diễn ra trên output
 - xem xét các kết quả mong đợi và thiết kế test case để xác định miền output mong muốn.
 
 ---
 
-#### Phân chia output
-##### Giới thiệu
+### Phân chia output
+#### Giới thiệu
 
 - VD: hàm typescript: 
     - humanize(duration: number):string
@@ -182,8 +182,8 @@
 
 ---
 
-#### Phân chia output
-##### Áp dụng sang ví dụ Mario
+### Phân chia output
+#### Áp dụng sang ví dụ Mario
 
 - VD: Hàm typescript
     - setVelocity(vx: number, vy: number): Direction
@@ -196,8 +196,8 @@
 
 ---
 
-#### Phân tích giá trị biên
-##### Giới thiệu
+### Phân tích giá trị biên
+#### Giới thiệu
 
 - Các thảo luận từ trước chỉ bàn về các giá trị hợp lệ của input và output.
 - Chương trình không phải lúc nào cũng gặp các giá trị hợp lệ.
@@ -206,8 +206,8 @@
 
 ---
 
-#### Phân tích giá trị biên
-##### Giới thiệu
+### Phân tích giá trị biên
+#### Giới thiệu
 
 - VD: Hệ thống quản lí audio game Mario hỗ trợ 2 định dạng MP3 và OGG.
     - Đảm bảo khi cho file input với định dạng không hợp lệ (FLAC, VP9) vào hệ thống thì hệ thống không bị treo hoặc cư xử theo cách đã định sẵn
@@ -217,7 +217,7 @@
 
 ---
 
-#### Phân tích giá trị biên
+### Phân tích giá trị biên
 
 - Chúng ta đã kiểm tra bên trong, giờ là lúc kiểm tra bên ngoài
 - Khi phân tích giá trị biên, chúng ta cố đẩy ra ngoài biên để biết những kiểu vấn đề có thể xảy ra trong thực tế. 
@@ -230,7 +230,7 @@
 
 ---
 
-#### Phân tích giá trị biên
+### Phân tích giá trị biên
 
 - Trở về ví dụ lúc trước, hàm isGreater(a: number, b: number)
     - chúng ta đã thử với -5, -1, 0, 1, 5
@@ -242,8 +242,8 @@
 
 ---
 
-#### Phân tích giá trị biên
-##### Kết luận
+### Phân tích giá trị biên
+#### Kết luận
 
 - Cuối cùng, chúng ta không thể kiểm tra toàn diện chương trình của chúng ta. Có quá nhiều inputs và outputs để kiểm tra.
 - Điều chúng ta có thể làm là chia nhỏ không gian input, output để chúng ta có thể lấy mẫu từ các phần đó.
