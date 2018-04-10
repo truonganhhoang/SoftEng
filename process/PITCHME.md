@@ -1,6 +1,7 @@
 ## Công nghệ phần mềm
 
 ### Quy trình phần mềm
+- [Đặc tả phần mềm(Specification)](https://gitpitch.com/jindojojin/softeng/master?p=process/Specification#/)
 
 ---
 
