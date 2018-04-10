@@ -1,5 +1,6 @@
 ## Công nghệ phần mềm
-
+### Đặc tả
+---
 ### Đặc tả
 #### Giới thiệu 
 - Đặc tả phần mềm kết nối khách hàng với đội ngũ phát triển lại với nhau:
@@ -24,8 +25,8 @@
 ### Đặc tả
 #### Xử lý các yêu cầu (Requirements Process)
 - Các yêu cầu phi chức năng có thể mâu thuẫn với nhau
-    - VD: đội phát triển cần 1 phần mềm có ít cài đặt phức tạp nhưng khách hàng lại muốn phần mềm có hiệu năng cao(cần phải cài đặt phức tạp)
     - => Các bên liên quan cần phải thống nhất với nhau về độ ưu tiên của các yêu cầu phi chức năng
+	
 - Lưu ý: Khi làm tài liệu về yêu cầu ta chỉ cần nêu những việc hệ thống sẽ làm chứ không cần quan tâm hệ thống sẽ làm những điều đó bằng cách nào
 
 ---
@@ -41,7 +42,7 @@
 ### Đặc tả
 #### Thu thập yêu cầu( Requirements Elicitation)
 Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
-- Thu thập(Elicitation): Đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
+- Thu thập(Elicitation): Đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện
 - Phân tích(Analysis): Kiểm tra, đảm bảo các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
 - Cụ thể hóa(Reification): Thể hiện yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có( vd: user cases hoặc user stories)
 - Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
