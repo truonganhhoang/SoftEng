@@ -114,7 +114,6 @@
 ---
 
 ### Line và Statement Coverage
-
 - statement coverage
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_6.jpg?raw=true)
@@ -154,3 +153,59 @@
 - Tập các node theo thứ tự
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_11.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_12.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+- Test 4: turtle.hit(new Mario({direction: right}))
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_13.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+- Test 4: turtle.hit(new Mario({direction: right}))
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_14.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_15.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+- Test 5: boss.hit(new Mario({direction: down}))
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_16.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+- Test 5: boss.hit(new Mario({direction: down}))
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_16.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_17.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_17.jpg?raw=true)
