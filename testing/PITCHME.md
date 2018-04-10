@@ -203,6 +203,8 @@
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_18.jpg?raw=true)
 
+---
+
 ### Wrap-up
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_19.jpg?raw=true)
