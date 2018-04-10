@@ -1,3 +1,8 @@
+## Công nghệ phần mềm
+
+### Quy trình phần mềm
+- [Đặc tả phần mềm (specifications)](https://gitpitch.com/jindojojin/softeng/master?p=process/Specification#/)
+
 Phương pháp xoắn ốc
 Phương pháp xoắn ốc xuất hiện trong những năm 1980 như là một sự cải tiến đối với những 
 thiếu sót của các chiến lược phát triển thác nước truyền thống.
