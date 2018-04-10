@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Công nghệ phần mềm
 
 ### Đặc tả
@@ -119,8 +118,8 @@ Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
 ### Đặc tả
 #### Thu thập yêu cầu( Requirements Elicitation)
 Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
-- Thu thập(Elicitation): Các bên liên quan cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
-- Phân tích(Analysis): Kiểm tra những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
+- Thu thập(Elicitation): Đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
+- Phân tích(Analysis): Kiểm tra các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
 - Cụ thể hóa(Reification): Thể hiện yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
 - Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
 ---
