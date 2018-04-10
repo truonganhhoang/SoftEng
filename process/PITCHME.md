@@ -31,7 +31,7 @@
 
 ---
 #### Đặc điểm của các yêu cầu( Requirements Properties)
-- Các yêu cầu tính năng phải đảm bảo 4 thứ:
+- Các yêu cầu phải đảm bảo 4 điều kiện:
 	- Hoàn thiện
 	- Nhất quán
 	- Chính xác
@@ -40,8 +40,12 @@
 ---
 #### Thu thập yêu cầu( Requirements Elicitation)
 - Quá trình hoàn thiện đặc tả phần mềm là lặp đi lặp lại các bước:
-	- Thu thập(Elicitation): các bên liên quan sẽ cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
-	- Phân tích(Analysis): chúng ta sẽ nhìn lại những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
-	- Cụ thể hóa(Reification): chúng ta viết các yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
-	- Thẩm định(Validation): chúng ta mang danh sách các yêu cầu để xác nhận lại với khách hàng
+	- Thu thập(Elicitation): Các bên liên quan sẽ cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
+	- Phân tích(Analysis): Kiểm tra những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
+	- Cụ thể hóa(Reification): Viết các yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
+	- Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
 --- 
+#### Các yêu cầu khác (Additional Requirements)
+- Giàng buộc thiết kế (Design Constraints) 
+- Giàng buộc về môi trường(Environmental Constraints)
+- Sở thích của khách hàng( Preference)
