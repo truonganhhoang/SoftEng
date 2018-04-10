@@ -1,8 +1,3 @@
-## Công nghệ phần mềm
-
-### Quy trình phần mềm
----
-
 ### Đặc tả phần mềm( Specifications )
 #### Giới thiệu
 
@@ -24,7 +19,7 @@
 - Mỗi bên liên quan( stackholders) có thể có các yêu cầu phi chức năng khác nhau
     - Khách hàng quan tâm đến tính dễ sử dụng, hiệu năng, khả năng nâng cấp,..
     - Đội phát triển quan tâm đến độ tin cậy, độ phức tạp, khả năng kiểm thử, bảo trì,...
-
+---
 - Các yêu cầu phi chức năng có thể mâu thuẫn với nhau
     - VD: đội phát triển cần 1 phần mềm có ít cài đặt phức tạp nhưng khách hàng lại muốn phần mềm có hiệu năng cao( cần phải cài đặt phức tạp)
     - => Các bên liên quan cần phải thống nhất với nhau về độ ưu tiên của các yêu cầu phi chức năng
@@ -40,11 +35,11 @@
 	
 ---
 #### Thu thập yêu cầu( Requirements Elicitation)
-- Quá trình hoàn thiện đặc tả phần mềm là lặp đi lặp lại các bước:
-	- Thu thập(Elicitation): Các bên liên quan sẽ cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
-	- Phân tích(Analysis): Kiểm tra những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
-	- Cụ thể hóa(Reification): Viết các yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
-	- Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
+Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
+- Thu thập(Elicitation): Các bên liên quan cùng nhau đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
+- Phân tích(Analysis): Kiểm tra những yêu cầu đã được thu thập để chắc chắn các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
+- Cụ thể hóa(Reification): Thể hiện yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có ( vd: user cases hoặc user stories )
+- Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
 --- 
 #### Các yêu cầu khác (Additional Requirements)
 - Giàng buộc thiết kế (Design Constraints) 
