@@ -57,7 +57,7 @@
 - Cho ta cái nhìn sâu sắc hơn trong việc vận hành
 - Gồm:
     - Branch Coverage - Bao phủ theo nhánh (*)
-    - Path Coverage - Bao phủ theo đường (*)
+    - Path Coverage - Bao phủ theo đường (*) - thường ứng dụng trong thực tế
     - MCC Coverage - Mở rộng của path coverage
     
 ---
@@ -118,3 +118,39 @@
 - statement coverage
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_6.jpg?raw=true)
+
+---
+
+### Branch và Path Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_7.jpg?raw=true)
+
+---
+
+### Branch và Path Coverage
+
+- T1 và T2
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_8.jpg?raw=true)
+
+---
+
+### Branch Coverage
+
+- Test 3: turtle.hit(new Turtle());
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_9.jpg?raw=true)
+
+---
+
+### Branch Coverage
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_10.jpg?raw=true)
+
+---
+
+### Path Coverage
+
+- Tập các node theo thứ tự
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_11.jpg?raw=true)
