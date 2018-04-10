@@ -190,13 +190,6 @@
 
 ![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_16.jpg?raw=true)
 
----
-
-### Path Coverage
-
-- Test 5: boss.hit(new Mario({direction: down}))
-
-![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_16.jpg?raw=true)
 
 ---
 
@@ -206,6 +199,10 @@
 
 ---
 
-### Path Coverage
+### Recap
 
-![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_17.jpg?raw=true)
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_18.jpg?raw=true)
+
+### Wrap-up
+
+![](https://github.com/NguyenDung98/SoftEng/blob/master/testing/imgs/white-box_19.jpg?raw=true)
