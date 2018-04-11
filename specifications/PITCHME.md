@@ -72,13 +72,3 @@ Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
     - Ý phụ 1
 
 ---
-
-### Tiêu đề 1
-
-- Ý 1
-    - Ý phụ 1
-- Ý 2
-    - Ý phụ 1
-=======
->>>>>>> 83d9ac767d709739d2df3de86b872fe9720be391
->>>>>>> 3b3d2f9ab9f2fb2564751d82a5056462aee55c04
