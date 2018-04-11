@@ -26,15 +26,9 @@
 ### Đặc tả
 #### Xử lý các yêu cầu (Requirements Process)
 - Các yêu cầu phi chức năng có thể mâu thuẫn với nhau
-<<<<<<< HEAD
     - VD: đội phát triển cần 1 phần mềm có ít cài đặt phức tạp nhưng khách hàng lại muốn phần mềm có hiệu năng cao(cần phải cài đặt phức tạp)
     - => Các bên liên quan cần phải thống nhất với nhau về độ ưu tiên của các yêu cầu phi chức năng
-* - Lưu ý: Khi làm tài liệu về yêu cầu ta chỉ cần nêu những việc hệ thống sẽ làm chứ không cần quan tâm hệ thống sẽ làm những điều đó bằng cách nào*
-=======
-    - => Các bên liên quan cần phải thống nhất với nhau về độ ưu tiên của các yêu cầu phi chức năng
-	
 - Lưu ý: Khi làm tài liệu về yêu cầu ta chỉ cần nêu những việc hệ thống sẽ làm chứ không cần quan tâm hệ thống sẽ làm những điều đó bằng cách nào
-
 ---
 ### Đặc tả
 #### Đặc điểm của các yêu cầu( Requirements Properties)
