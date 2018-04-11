@@ -26,7 +26,7 @@
 ### Đặc tả
 #### Xử lý các yêu cầu (Requirements Process)
 - Các yêu cầu phi chức năng có thể mâu thuẫn với nhau
-    - VD: đội phát triển cần 1 phần mềm có ít cài đặt phức tạp nhưng khách hàng lại muốn phần mềm có hiệu năng cao(cần phải cài đặt phức tạp)
+    - VD: đội phát triển cần 1 phần mềm có ít cài đặt phức tạp nhưng khách hàng lại muốn phần mềm có hiệu năng cao
     - => Các bên liên quan cần phải thống nhất với nhau về độ ưu tiên của các yêu cầu phi chức năng
 - Lưu ý: Khi làm tài liệu về yêu cầu ta chỉ cần nêu những việc hệ thống sẽ làm chứ không cần quan tâm hệ thống sẽ làm những điều đó bằng cách nào
 ---
@@ -42,9 +42,6 @@
 ### Đặc tả
 #### Thu thập yêu cầu( Requirements Elicitation)
 Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
-- Thu thập(Elicitation)
-- Phân tích(Analysis)
-- Cụ thể hóa(Reification)
 - Thu thập(Elicitation)
 - Phân tích(Analysis)
 - Cụ thể hóa(Reification)
