@@ -42,13 +42,13 @@
 ### Đặc tả
 #### Thu thập yêu cầu( Requirements Elicitation)
 Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
-- Thu thập(Elicitation): Đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện/không được thực hiện
-- Phân tích(Analysis): Kiểm tra, đảm bảo các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
-- Cụ thể hóa(Reification): Thể hiện yêu cầu dưới dạng ngôn ngữ quy chuẩn(user cases, user stories,..)
-- Thu thập(Elicitation): Đưa ra các yêu cầu cho phần mềm và chỉ rõ những yêu cầu nào sẽ được thực hiện
-- Phân tích(Analysis): Đảm bảo các yêu cầu là nhất quán và không ảnh hưởng đến các yêu cầu còn lại
-- Cụ thể hóa(Reification): Thể hiện yêu cầu dưới dạng ngôn ngữ quy chuẩn đã có( vd: user cases hoặc user stories)
-- Thẩm định(Validation): Mang danh sách các yêu cầu để xác nhận lại với khách hàng
+- Thu thập(Elicitation)
+- Phân tích(Analysis)
+- Cụ thể hóa(Reification)
+- Thu thập(Elicitation)
+- Phân tích(Analysis)
+- Cụ thể hóa(Reification)
+- Thẩm định(Validation)
 ---
 ### Đặc tả
 #### Các yêu cầu khác (Additional Requirements)
