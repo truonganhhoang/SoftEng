@@ -5,14 +5,14 @@
 ---
 ### Khả năng kiểm tra (Testability)
 - 5 bước trong thử nghiệm hệ thống phần mềm:
-	- Reach (Chia ra)
-	- Trigger 
-	- Propagate (Truyền ra)
-	- Observe ( Quan sát)
-	- Interpret(Thông dịch)
+	- Tiếp cận mã(Reach)
+	- Kích hoạt (Trigger)
+	- Truyền ra kết quả (Propagate) 
+	- Quan sát lỗi (Observe) 
+	- Giải thích kết quả (Interpret)
 ---
 ### Các tính chất
-- Khả năng điều khiển (Controllability) 
+- Khả năng kiểm soát (Controllability) 
 	- Kiểm soát được tất cả các cấu trúc mã theo cách làm cho chúng ngắn hơn, gọn gàng hơn và làm cho hệ thống dễ hiểu hơn.
 	- Do đó khuyến khích lập trình viên viết bài nhiều test hơn.
 ---
@@ -34,14 +34,9 @@
 		- kiểm thử thủ công khó thực hiện
 		- kiểm thử tốn thời gian
 ---
-### Testability Wrap-Up
-- 5 bước và các tính chất giúp trong việc cải thiện:
-	- REACH : Controllbility, Automatability
-	- TRIGGER: Controllbility,  Isolateability, Automatability
-	- PROPAGATE: Observability, Automatability
-	- OBSERVE: Observability, Automatability 
-	- INTERPRET
-
+### Tóm lại
+- Kiểm tra cũng là mã -> có thể có lỗi
+- Vì vậy cần xác định một cách chính xác và hiệu quả số lượng kiểm tra cần trong thực tế.
 ---
 
 ### Module Wrap-Up
