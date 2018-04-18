@@ -46,20 +46,68 @@
 - Gồm: 
     - Block Coverage - Bao phủ theo khối 
     - Line Coverage - Bao phủ theo dòng (*)
-    - Statement Coverage - Bao phủ theo điều kiện (*)
+    - Statement Coverage - Bao phủ theo dòng lệnh (*)
     
+---
+
+### Block Coverage
+
+- Đo lường số các khối trong hệ thống có thể được chạy bởi bộ test
+- Chứa nhiều dòng code
+- Nhỏ hơn method - bao quát hơn dòng 
+
+---
+
+### Line Coverage
+
+- Đo lường số các dòng trong hệ thống có thể được chạy bởi bộ test
+- Trực quan
+    - Vì chỉ cần nhìn vào từng dòng code và giải thích liệu chúng đã được chạy bởi bộ test hay không
+---
+
+### Statement Coverage
+
+- Đo lường số các dòng lệnh trong hệ thống có thể được chạy bởi bộ test
+- Rất giống với line coverage - trừ việc có nhiều lệnh trong 1 dòng lệnh(lệnh rẽ nhánh và loop)
+- Đảm bảo mọi lệnh trong 1 dòng đều được chạy
+
 ---
 
 ### Flow dependent
 
 - Đảm bảo các dòng code có thể thực thi cùng nhau
 - Khó tính toán giải thích
-- Cho ta cái nhìn sâu sắc hơn trong việc vận hành
+- Cho ta cái nhìn rõ ràng hơn trong việc vận hành
 - Gồm:
     - Branch Coverage - Bao phủ theo nhánh (*)
     - Path Coverage - Bao phủ theo đường (*) - thường ứng dụng trong thực tế
     - MCC Coverage - Mở rộng của path coverage
     
+---
+
+### Branch Coverage
+
+- Đảm bảo ta đã chạy được cả hai nửa của lệnh rẽ nhánh
+- VD: Đảm bảo 2 nhánh true và false của cầu lệnh rẽ nhánh đều được thực thi
+
+---
+
+### Path Coverage
+
+- Đàm bảo ta bao được toàn bộ trường hợp có thể xảy ra trong hệ thống (rẽ nhánh)
+- VD: Ta có 2 câu lệnh rẽ nhánh
+    - Ta không chỉ thực thi được true và false cho mỗi nhánh
+    - Ta còn chạy các bộ kết hợp của true và false (true-true; true-false; false-true; false-false: 2!)
+
+---
+
+### MCC Coverage
+
+- Phiên bản mở rộng của Path Coverage
+- Đảm bảo mọi trường hợp đều được tính toán độc lập đối với đầu ra của 1 hàm
+- Được sử dụng trong một số hệ thống quan trọng
+- Nhưng rất khó để sử dụng trong thực tiễn
+
 ---
 
 ### Coverage là 1 quá trình lặp
@@ -68,6 +116,32 @@
 1. Thiết kế các bộ test để chạy các dòng code đó
 1. Viết và chạy test để đảm bảo các dòng code đó qua được các test
 1. Lặp lại đến khi đạt được mục đích bao phủ - 'coverage'
+
+---
+
+### Wrap-up
+
+- Thực tế, developer có khuynh hướng bắt đầu với dạng coverage đơn giản
+    - line coverage
+- Sau khi đạt tỉ lệ coverage cao => Chuyển sảng dạng nghiêm ngặt hơn - Path Coverage
+
+
+---
+
+### Wrap-up
+
+- Không có ngưỡng tiêu chuẩn coverage nào là đúng
+- Nghiên cứu gần đây đã cho thấy:
+    - Chạy nhiều test chất lượng cao tốt hơn là tăng tỉ lệ phần trăm coverage
+- Tỉ lệ coverage cao - không tương đương với việc hệ thống đúng
+
+---
+
+### Wrap-up
+
+- Điểm yếu cơ bản:
+    - Không kiểm tra về sự đúng đắn
+    - Chỉ kiểm tra về việc vận hành hệ thống 
 
 ---
 
