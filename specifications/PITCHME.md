@@ -163,3 +163,129 @@ Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
 
 
 ---
+##Nguyên tắc INVEST##
+
+ Sử dụng đúng đắn **User story**  thường là thách thức, đặc biệt đối với những người mới.
+
+ Một loạt các nguyên tắc được gọi là **INVEST** được phát triển để giúp các kỹ sư và khách hàng viết nên những User story  có hiệu quả.
+
+
+ **Nguyên tắc là độc lập .**
+
+-  Điều này có nghĩa là tất cả bộ nhớ người dùng phải được độc lập riêng biệt một cách có thể.
+
+ 
+-  Khi bạn có những User story độc lập, nó sẽ đem lại cho nhóm phát triển và khách hàng nhiều sự linh hoạt hơn trong việc lựa chọn từ một sản phẩm tồn đọng.Điều đó giúp họ chắc chắn chọn đúng một tập các **Story** cho sự lặp lại.
+
+
+**Bổ sung trong Giai đoạn đàm phán.**
+
+
+-Khiến họ đi theo những suy nghĩ của ta. Vì chúng ta không thể đánh giá về các User story có hiệu quả hay không.
+
+- Các cuộc đàm phán thường phải dừng lại khi các tính năng bổ sung hay chi tiết bổ sung được thêm vào User story.
+
+
+
+**Đánh giá User story**
+
+
+- Nhằm đảm bảo rằng User story thực sự cung cấp  một giá trị có ý nghĩa cho sản phẩm. Và điều này cho chúng ta một cơ hội để lùi lại và suy nghĩ về lợi ích của role-goal (vai trò mục tiêu ) đối với một tính năng nào đó.
+
+
+- Trải qua sự phát triển của một dự án, giá trị của các tính năng khác nhau sẽ thay đổi qua thời gian như nhu cầu của sự thay đổi sản phẩm,  như kỳ vọng của khách hàng hoặc sự thay đổi ý kiến.
+
+=> Cần phải có khả năng nhìn lại và thực sự đánh giá giá trị của một tính năng tại thời điểm mà chúng ta đang cân nhắc xây dựng nó.
+
+
+**Đánh giá các tính năng**
+
+
+- Chúng ta cần có khả năng để chi trả các chi phí một cách hiệu quả cho các tính năng. 
+
+
+- Nếu chúng ta không thể cung cấp một chi phí cụ thể và có ý nghĩa cho sự phát triển một tính năng, chúng ta cần  nhìn lại và thực sự thêm các chi tiết bổ xung hoặc chia nhỏ tính năng đó thành một tập các tính năng có giá trị hơn. 
+
+=> Phải đảm bảo rằng chúng ta có sự hiểu biết cụ thể và thực tế về những chi phí cho những tính năng thực sự quan trọng.
+
+**Các tính năng nhỏ**
+
+
+- Tính năng nhỏ được ước tính dễ dàng hơn, dễ lý giải về giá trị,các  tính năng dễ đàm phán hơn, và nó cũng
+có khuynh hướng độc lập hơn.
+
+- User stories nên càng nhỏ càng tốt để giúp dẫn các tính năng tiếp theo.
+**Kiểm chứng**
+
+
+- Nhằm đảm bảo rằng những Story có thể kiểm chứng được, để cả khách hàng và nhà phát triển có thể chắc chắn rằng tính năng đã được phát triển theo cách phù hợp với cả hai bên.
+
+**
+*NHỮNG NGUYÊN TẮC NÀY THỰC SỰ CUNG CẤP MỘT FRAMEWORK GIÚP. CHÚNG TA CÓ THỂ SỬ DỤNG KHI CHÚNG TA VIẾT STORY ĐỂ ĐẢM BẢO RẰNG CHÚNG HOÀN CHỈNH HƠN VÀ HỮU ÍCH HƠN  TRONG THỰC TẾ.***
+ 
+---
+## User Story và ví dụ về INVEST  #
+
+###Một ví dụ cụ thể về User story:
+- Như một prof ( giáo sư ), tôi muốn tạo ra một tập hợp các Repo để học sinh có thể thực hiện công việc của mình. 
+####bước 1:
++ vai trò : là giáo sư
++ mục đích: tạo ra các repo
++ lợi ích: học sinh có thể làm công việc của mình
+####bước 2
++ cần làm: respository names, student ids trong trường hợp này nó sẽ là các ID sinh viên và sẽ là tên người dùng GitHub
+####bước 3
++ cần chạy nó như 1 command riêng lẻ
++ các test cases tự động
++ hàm ý các test case: lập trình kiểm chứng được
+###bước 4
++ có thể sử dụng Github manager
+####bước 5
++ ước tính chi phí: 1.5 units (units phụ thuộc vào team)
+=> biết được input, định nghĩa sản phẩm và các kiểm tra nó và có 1 ước tính rõ ràng về chi phí
+---
+##Decomposing User Stories : 
+###phân tách User Story thành những User story nhỏ hơn, dễ implement hơn
+###Phần 1 : 
+- Xác định các role, goals, benefit, limitation, notes, cost của câu chuyện 
+
+- Xây dựng DoD
+
+- Đánh giá DoD qua bộ tiêu chí INVEST
+
+---
+##Decomposing User Stories : 
+###Phần 2 : 
+- Xác định các thực thể trong câu chuyện(Entities)
+
+- Liên kết các thực thể với nhau(Link entities)
+
+- Xác định các hành động rang buộc thực thể và story(Bind actions)
+
+- Xây dựng kịch bản cho câu chuyện (Prototype)
+
+- Hình thức hóa các prototype đã xây dựng(Formalize)
+
+---
+##Decomposing User Stories: 
+###Phần 3
+
+####Hình thức hóa protoype bằng UML class diagram
+
+
+- Class Key:  gồm 1 method keyPressed(Event)
+- keyPressed sẽ gọi class Level
+- Class Level: 2 trường là mario có kiểu Mario, enemies là 1 mảng các Enemy, 2 phương thức input(command) và update()
+- Vì class Level chứa những nhân vật mario và enemy, nên tạo interface Figure, dùng composition
+- Figure: move(Dir), hit(), collision(Figure)
+
+---
+##Decomposing User Stories: 
+###Phần 4
+- Giả sử người dùng bấm left arrow <- và mario sẽ va chạm với một enemy
+- Đầu tiên xem xét trong class Key:
+	+ nó sẽ thông dịch và chuyển left arrow đó thành thứ mà class Level có thể dùng
+	+ Chuyển left arrow vào trường direction mã hóa những gì left arrow làm và đưa nó cho input() trong class Level
+	+ class Direction thêm vào 1 chút trừu tượng, làm cho code phức tạp hơn trong tương lai. Ví dụ nếu người dùng dùng phím A và D để di chuyển trái và phải thay vì arrows key, ta chỉ cần capture nó với vô hướng và class Level không bị ảnh hưởng.
+	+ và khi input lấy tham số này, nó gọi move với direction trên Mario, và Mario sẽ di chuyển và trả về
+	+ sau đó input gọi update(), update tất cả vị trí của enemies, nên có 1 vòng for duyệt toàn bộ enemy và update chúng. Chú ý tham số direction ở đây không phải do người dùng, mà là hướng mà enemy đang di chuyển vào lần cuối update
