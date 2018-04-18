@@ -2,6 +2,7 @@
 ---
 
 ## Giới thiệu
+- Trước khi triển khai về các nguyên tắc thiết kế vững chắc, cần suy nghĩ về việc thiết kế ở mức độ thấp hơn
 - Gồm 3 quy tắc để vận hành
 1) Gói gọn những thay đổi 
  	- Áp dụng các quy tắc thiết kế trong thực hành
@@ -34,11 +35,15 @@
 
 ## Mẫu thiết kế singleton
 ![alt](https://allaravel.com/wp-content/uploads/2017/07/singleton-pattern-uml.png)
+### Khái quát
 - Là mẫu thiết kế đơn giản nhất
 - là một mô hình thiết kế khởi tạo
 - Để sử dụng rộng rãi một đối tượng (object) trong hệ thống nhưng không truyền thể hiện (instance) của object tới nơi muốn sử dụng, hoặc chỉ muốn có một thể hiện duy nhất của object
 - Không thể gọi constructor vì nó được xây dựng riêng biệt (private), mà phải gọi phương thức tĩnh getInstance để trả về thể hiện của đối tượng
-- Nếu đối tượng chưa được gắn, hoặc các trường (field) là null, nó sẽ gọi hàm khởi tạo riêng
+- Nếu đối tượng chưa được gán, hoặc các trường (field) là null, nó sẽ gọi hàm khởi tạo riêng
+---
+
+### Một số hạn chế
 - Sẽ phát sinh một số phức tạp nếu sử dụng nó với ngôn ngữ đa luồng  
 - Thường được sử dụng trong các mẫu thiết kế khác
 - Là một biến toàn cục, cần xem xét nếu muốn phổ biến trong toàn bộ thiết kế vì chúng tỏ ra yếu kém trong việc theo dõi tình trạng của hệ thống
@@ -48,14 +53,18 @@
 
 ## Mẫu thiết kế chiến lược (Strategy)
 ![alt](https://allaravel.com/wp-content/uploads/2017/07/Strategy-pattern-uml.png)
+### Khái quát
 - Có thể thay đổi cơ chế hoạt động của một ứng dụng dựa trên những nhu cầu mới
 - Cung cấp cơ chế cho việc tóm lược các thuật toán để cho phép mở rộng trong tương lai
 - Cung cấp một giao diện chiến lược mới để có thể tiến hành bổ sung các chức năng mới cho hệ thống
 - Chỉ phụ thuộc vào giao diện nên nó không tương tác với các trường hợp cụ thể
 - Những gì mà mẫu thiết kế làm là ẩn các thông tin cụ thể của triển khai thuật toán khỏi client
 - Tách rời các client ra khỏi những thay đổi của thuật toán trong hệ thống
+---
+
+### Cách triển khai
 - Khi muốn bỏ sung thuật toán mới, chỉ cần triển khai các giao diện và thêm chúng
-- Các mãu thiết kế chiến lược có thể thay đổi để bổ sung đặc tính mới, chứ không phải thay đổi chúng
+- Các mẫu thiết kế chiến lược có thể thay đổi để bổ sung đặc tính mới, chứ không phải thay đổi chúng
 - Bao gồm các mô hình chiến lược, các giao diện cấp cao (high-level) khai báo cấu trúc của các thuật toán sẽ được thực hiện theo mô hình
 - Khi đóng mô hình để sửa đổi, cần thông qua một ngữ cảnh. Đối tượng ngữ cảnh sẽ tham chiếu đến chiến lược di chuyển, và trường này sẽ không thay đổi tại runtime
 - Khi có yêu cầu từ client, các trường sẽ được chuyển tiếp vào chiến lược (strategy) thích hợp
@@ -64,6 +73,7 @@
 
 ## Mẫu thiết kế trạng thái (State)
 ![alt](https://i2.wp.com/www.dofactory.com/images/diagrams/net/proxy.gif)
+### Khái quát
 - Thay đổi hành vi của chương trình theo cơ chế động
 - Đóng gói trạng thái bên trong các đối tượng trạng thái và cho phép chúng quản lý sự chuyển đổi giữa các trạng thái khác nhau
 - Không phải sửa đổi các client khác nhau phụ thuộc vào trạng thái đã tồn tại trước đó
