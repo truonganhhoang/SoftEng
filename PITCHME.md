@@ -12,7 +12,7 @@
 - [Kiểm thử](https://gitpitch.com/truonganhhoang/softeng/master?p=testing#/)
 - [Thiết kế mức cao](https://gitpitch.com/truonganhhoang/softeng/master?p=high-level-design#/)
 - [Thiết kế mức thấp](https://gitpitch.com/truonganhhoang/softeng/master?p=low-level-design#/)
-- [Xây dựng](https://gitpitch.com/truonganhhoang/softeng/master?p=construction#/)
+- [Xây dựng](https://gitpitch.com/ann000/softeng/master?p=construction#/)
 
 ---
 
