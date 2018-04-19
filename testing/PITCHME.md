@@ -305,8 +305,13 @@
 ### Vấn đề whitebox testing:
 
 - Vấn đề:
+<<<<<<< HEAD
     - Trong white box testing, chúng ta có quyền truy cập đầy đủ tới mã nguồn của hệ thống nhưng nếu không thì sẽ gặp khó khăn.
     - Whitebox testing có nhiều phức tạp. Hiểu code để viết test case phù hợp là quá nặng và khó khăn.
+=======
+    - Trong white box testing, ta có quyền truy cập tới mã nguồn
+    - Hiểu code để viết test case phù hợp là quá nặng và khó khăn.
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
     - Người thích hợp tạo test case whitebox là chính nhà phát triển.
     - Tuy nhiên Nhà phát triển có thể tạo lỗi hệ thống trong test họ tạo.
 - Giải pháp: BLACK BOX TESTING
@@ -336,9 +341,15 @@
 
 - VD2: hàm cho 2 số a,b, trả về true nếu a lớn hơn b
     - Trong TypeScript kiểu number từ -1.79e308 đến 1.79e308 (3.58e308 giá trị)
+<<<<<<< HEAD
     - Tạo bảng với giá trị cột ứng với a, giá trị dòng ứng với b thì t có (3.58e308)^2 = 1.28e617 ô trong bảng, ứng với số trường hợp của đầu vào.
     - Không gian trạng thái: 1.28e617 trạng thái
     - Nếu muốn kiểm tra mọi trạng thái là điều không thể
+=======
+    - có (3.58e308)^2 = 1.28e617 trường hợp của đầu vào.
+    - Không gian trạng thái: 1.28e617 trạng thái
+    - Kiểm tra mọi trạng thái là điều không thể
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
     - Đây vẫn còn là VD đơn giản.
 - Làm thế nào để xử lí quá tải này?
 
@@ -358,9 +369,14 @@
 
 - VD: Hàm isGreater(a: number, b: number)
     - Input a,b là một số từ 0 đến vô cùng.
+<<<<<<< HEAD
     - Thay vì chọn các số vô cùng để kiểm tra, hãy chọn 1 số dương, 1 số âm, và các số xung quanh điểm biên.
     - Bạn có thể chọn 0, 1, 5, -1, -5
     - a,b có thể nhận 5 giá trị trên nên tổng cộng chỉ có 25 trạng thái thay vì 1.28e617 trạng thái như VD trên.
+=======
+    - Bạn có thể chọn 0, 1, 5, -1, -5 cho input
+    - chỉ còn 25 trạng thái thay vì 1.28e617 trạng thái như VD trên.
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 - Vẫn kiểm tra đủ các trường hợp input của hàm với mẫu trên mà không cần kiểm tra toàn bộ không gian trạng thái.
 
 ---
@@ -375,11 +391,19 @@
 
 ### Phân chia input
 
+<<<<<<< HEAD
 - VD: Mario lao vào địch thì Mario bị thương, các địch lao vào nhau thì không sao, mario nhảy qua boss, boss có thể còn sống
 - Ta có 3 loại nhân vật: Mario, boss, Turtle
 - Có 2 thuộc tính liên quan:
     - 2 hướng (phải/xuống) (vì nếu Mario sang phải va trúng địch thì Mario chết, còn Mario hạ cánh trúng địch thì địch chết)
     - 2 trạng thái (lớn/nhỏ) (vì Mario lớn có thể sống sót khi va trúng địch còn Mario nhỏ thì không)
+=======
+- VD: Mario lao vào địch thì Mario bị thương, các địch lao vào nhau thì không sao, Mario nhảy trúng đích thì địch chết, Mario nhảy trúng boss, boss có thể còn sống
+- Ta có 3 loại nhân vật: Mario, boss, Turtle
+- Có 2 thuộc tính liên quan:
+    - 2 hướng (phải/xuống) 
+    - 2 trạng thái (lớn/nhỏ)
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 - Vậy Chúng ta có 4 Mario nói chung
 
 ---
@@ -424,6 +448,14 @@
         - 1000ms - 1min => trả về giây
         - 1min - 1h => trả về phút và giây
         - duration > 1h => trả về giờ, phút giây
+<<<<<<< HEAD
+=======
+---
+
+### Phân chia output
+
+- VD: hàm typescript: humanize(duration: number):string
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
     - Thử chọn input như VD trước: -5,-1,0,1,5 => không phụ hợp để kiểm tra các miền output.
     - Nên chọn input: 0, 1000, 60k, 3.6m để kiểm tra mỗi miền output.
 
@@ -435,6 +467,15 @@
     - setVelocity(vx: number, vy: number): Direction
     - hàm cho 2 tham số vx, vy là vận tốc nhân vật theo phương Ox và Oy
     - trả về nhân vật đó đang di chuyển trái hay phải.
+<<<<<<< HEAD
+=======
+    
+---
+
+### Phân chia output
+
+- VD: Hàm typescript
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 - Ta tưởng tượng đồ thị với 2 trục: vx và vy với vx và vy có giá nằm trong khoảng số rộng 1,28e617.
 - Trong hàm này, chúng ta chỉ quan tâm vx (vì nó tác động tới hướng trái/phải) nên
     - khi chia output ta có 2 test cases là : -1 và 1
@@ -444,28 +485,45 @@
 ### Phân tích giá trị biên
 
 - Các thảo luận từ trước chỉ bàn về các giá trị hợp lệ của input và output.
+<<<<<<< HEAD
 - Chương trình không phải lúc nào cũng gặp các giá trị hợp lệ.
 - Chúng ta muốn hệ thống phản ứng với cả các input không hợp lệ
 - Chúng ta đã kiểm tra bên trong biên, giờ là lúc kiểm tra bên ngoài biên
 - Nên công nghệ chính sử dụng là phân tích giá trị biên
+=======
+- Chúng ta muốn hệ thống phản ứng với cả các input không hợp lệ
+=> Công nghệ chính sử dụng là phân tích giá trị biên
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 
 ---
 
 ### Phân tích giá trị biên
 
 - VD: Hệ thống quản lí audio game Mario hỗ trợ 2 định dạng MP3 và OGG.
+<<<<<<< HEAD
     - Đảm bảo khi cho file input với định dạng không hợp lệ (FLAC, VP9) vào hệ thống thì hệ thống không bị treo hoặc cư xử theo cách đã định sẵn
 - Chúng ta phải nghĩ về những điều có thể xảy ra khi vấn đề input không hợp lệ diễn ra
 - Tiếp VD:
     - Định dạng OGG có thể chứa video, chúng ta phải thêm test case với 1 file video OGG.
+=======
+    - File input với định dạng không hợp lệ (FLAC, VP9) thì hệ thống không treo
+    - Định dạng OGG có thể chứa video thay vì audio
+- Chúng ta phải nghĩ về những điều có thể xảy ra khi vấn đề input không hợp lệ diễn ra
+
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 
 ---
 
 ### Phân tích giá trị biên
 
+<<<<<<< HEAD
 - Khi phân tích giá trị biên, chúng ta cố đẩy ra ngoài biên để biết những kiểu vấn đề có thể xảy ra.
 - Trong TypeScript mỗi kiểu đơn đều có 2 giá trị null và undefined, nên VD với kiểu Boolean có 4 giá trị: true/false/null/undefined
 - Vậy khi kiểm thử, bạn sẽ phải thử không chỉ với true, false mà cả null và undefined để đảm bảo hàm thực sự hoạt động tốt.
+=======
+- Trong TypeScript mỗi kiểu đơn đều có 2 giá trị null và undefined
+- Vậy Boolean có 4 giá trị: true/false/null/undefined
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 - Khi đối mặt với giá trị không hợp lệ, hoặc là
     - ném ra ngoại lệ (throw exception)
     - luôn luôn là false
@@ -477,15 +535,27 @@
 - Trở về ví dụ hàm isGreater(a: number, b: number)
     - chúng ta đã thử với -5, -1, 0, 1, 5
     - giờ tiếp tục thử với các input không mong muốn:
+<<<<<<< HEAD
         - Trong lập trình, vô cùng không thể mã hóa, nên kiểu số có giá trị lớn/nhỏ nhất giới hạn
         - khi giá trị số vượt qua giới hạn trên thì gây ra number roll over làm sai giá trị gây ra hậu quả khôn lường.
 - Vậy cần kiểm thử chúng trong tình trạng tập trung cao (đảm bảo an toàn cao).
+=======
+        - Không thể hiện được vô cùng với ngôn ngữ lập trình
+        - Number roll over gây ra hậu quả khôn lường.
+- Vậy cần kiểm thử trong tình trạng tập trung cao (đảm bảo an toàn cao).
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
 
 ---
 
 ### Kết luận
 
+<<<<<<< HEAD
 - Cuối cùng, chúng ta không thể kiểm tra toàn diện chương trình của chúng ta. Có quá nhiều inputs và outputs để kiểm tra.
 - Điều chúng ta có thể làm là chia nhỏ không gian input, output để chúng ta có thể lấy mẫu từ các phần đó.
 - Ngoài ra cần phải chú ý để các input không mong muốn không làm treo chương trình bằng cách dùng phương pháp phân tích giá trị biên
 - Phân tích giá trị biên giúp code không chỉ đúng mà còn phản ứng được với các input không hợp lệ
+=======
+- Ta không thể kiểm tra toàn diện.
+- Cần chia nhỏ không gian input, output để lấy mẫu
+- Cần chú ý các input không mong muốn bằng phương pháp phân tích giá trị biên
+>>>>>>> c4aea1f019e4faf7c088a810dc610db2e5f5fa00
