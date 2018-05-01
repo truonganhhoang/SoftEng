@@ -1,3 +1,4 @@
+### [View slides](https://gitpitch.com/truonganhhoang/softeng/specifications)
 ## Công nghệ phần mềm
 =======
 ### Đặc tả
