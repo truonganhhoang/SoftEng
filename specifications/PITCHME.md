@@ -178,6 +178,9 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 
 - Các cuộc đàm phán thường phải dừng lại khi các tính năng bổ sung hay chi tiết bổ sung được thêm vào User story.
 
+---
+
+##Nguyên tắc INVEST##
 
 **V ( Valuable) - Đánh giá User story**
 
@@ -188,6 +191,8 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 
 -  Phải đảm bảo có sự hiểu biết cụ thể và thực tế về chi phí cho những tính năng thực sự quan trọng.
 
+---
+##Nguyên tắc INVEST##
 
 **S (Small) - Các tính năng nhỏ**
 
@@ -214,6 +219,8 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 
 -cần làm: respository names, student ids trong trường hợp này nó sẽ là các ID sinh viên và sẽ là tên người dùng GitHub
 
+---
+###Một ví dụ cụ thể về User story:
 
 **Bước 3: Valuable - Đánh giá**
 
@@ -225,6 +232,9 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 + có thể sử dụng Github manager
 
 **Bước 5: Estimable - Ước tính**
+
+---
+###Một ví dụ cụ thể về User story:
 
 + ước tính chi phí: 1.5 units (units phụ thuộc vào team)
 
