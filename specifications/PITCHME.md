@@ -264,7 +264,7 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 - Xác định các thực thể : Level, Mario, Enemy, Figure, Key
 - Liên kết các thực thể : Mario, Enemy với Figure, Figure và Level, Level và Key
 - Xác định các ràng buộc : Keypress, move, collide, hit
-- Tạo dựng kịch bản để tìm rs thiếu sót :
+- Tạo dựng kịch bản để tìm ra thiếu sót :
 	+ Điều gì xảy ra khi Mario di chuyển và va chạm với Enemy -> Level nhận keypress thông qua input
 	+ Level kiểm soát nhiều Figure -> thêm phương thức updates với level
 	+ Làm thế nào để biết Mario đang va chạm với kẻ thù -> thêm phương thức collide với Mario
@@ -287,15 +287,20 @@ Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu 
 - interface Figure là compositon đối với class Level
 - Figure: move(Dir), hit(), collision(Figure)
 
+
+---
+### Phân tích User Story: Phần 4
+![](http://assets/image/scenario.JPG)
 ---
 ### Phân tích User Story: Phần 4
 - Giả sử người dùng bấm left arrow <- và mario sẽ va chạm với một enemy
 - Đầu tiên xét trong class Key:
-	+ nó sẽ thông dịch và chuyển left arrow đó thành 1 trường gọi là direction trong keyPress, rồi chuyển nó cho input() 
-	+ khi input lấy tham số direction, nó gọi move và Mario sẽ di chuyển theo direction đó và trả về ngay lập tức
+	+ keyPress chuyển left arrow direction cho input() 
+	+ input() gọi move và Mario sẽ di chuyển theo direction đó
 	+ sau đó input gọi update(), update tất cả vị trí của enemies
-- Vì kịch bản là Mario sẽ va chạm với một enemy, level sẽ gọi collide(Enemy)
-- Sau đó, Mario sẽ gọi hit() trên enemy
+- Vì kịch bản là Mario sẽ va chạm với một enemy 
+	+ level sẽ gọi collide(Enemy)
+	+ Mario sẽ gọi hit() trên enemy
 
 ---
 ### Phân tích User Story: Phần 5
