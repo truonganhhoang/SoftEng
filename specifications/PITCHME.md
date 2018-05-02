@@ -163,129 +163,156 @@ Quá trình đặc tả phần mềm là lặp đi lặp lại các bước:
 
 
 ---
-##Nguyên tắc INVEST##
 
- Sử dụng đúng đắn **User story**  thường là thách thức, đặc biệt đối với những người mới.
+##ĐẶC TẢ
+###Nguyên tắc INVEST
 
- Một loạt các nguyên tắc được gọi là **INVEST** được phát triển để giúp các kỹ sư và khách hàng viết nên những User story  có hiệu quả.
-
-
- **Nguyên tắc là độc lập .**
-
--  Điều này có nghĩa là tất cả bộ nhớ người dùng phải được độc lập riêng biệt một cách có thể.
-
+Giúp các kỹ sư và khách hàng viết nên những User story  có hiệu quả.
  
--  Khi bạn có những User story độc lập, nó sẽ đem lại cho nhóm phát triển và khách hàng nhiều sự linh hoạt hơn trong việc lựa chọn từ một sản phẩm tồn đọng.Điều đó giúp họ chắc chắn chọn đúng một tập các **Story** cho sự lặp lại.
 
+**I (Independent) - Nguyên tắc là độc lập .**
 
-**Bổ sung trong Giai đoạn đàm phán.**
+-  User story nên được khép kín, theo cách không có sự phụ thuộc các User story khác
+ 
 
-
--Khiến họ đi theo những suy nghĩ của ta. Vì chúng ta không thể đánh giá về các User story có hiệu quả hay không.
+**N (Negotiable) - Thỏa thuận trong Giai đoạn đàm phán.**
 
 - Các cuộc đàm phán thường phải dừng lại khi các tính năng bổ sung hay chi tiết bổ sung được thêm vào User story.
 
-
-
-**Đánh giá User story**
-
-
-- Nhằm đảm bảo rằng User story thực sự cung cấp  một giá trị có ý nghĩa cho sản phẩm. Và điều này cho chúng ta một cơ hội để lùi lại và suy nghĩ về lợi ích của role-goal (vai trò mục tiêu ) đối với một tính năng nào đó.
-
-
-- Trải qua sự phát triển của một dự án, giá trị của các tính năng khác nhau sẽ thay đổi qua thời gian như nhu cầu của sự thay đổi sản phẩm,  như kỳ vọng của khách hàng hoặc sự thay đổi ý kiến.
-
-=> Cần phải có khả năng nhìn lại và thực sự đánh giá giá trị của một tính năng tại thời điểm mà chúng ta đang cân nhắc xây dựng nó.
-
-
-**Đánh giá các tính năng**
-
-
-- Chúng ta cần có khả năng để chi trả các chi phí một cách hiệu quả cho các tính năng. 
-
-
-- Nếu chúng ta không thể cung cấp một chi phí cụ thể và có ý nghĩa cho sự phát triển một tính năng, chúng ta cần  nhìn lại và thực sự thêm các chi tiết bổ xung hoặc chia nhỏ tính năng đó thành một tập các tính năng có giá trị hơn. 
-
-=> Phải đảm bảo rằng chúng ta có sự hiểu biết cụ thể và thực tế về những chi phí cho những tính năng thực sự quan trọng.
-
-**Các tính năng nhỏ**
-
-
-- Tính năng nhỏ được ước tính dễ dàng hơn, dễ lý giải về giá trị,các  tính năng dễ đàm phán hơn, và nó cũng
-có khuynh hướng độc lập hơn.
-
-- User stories nên càng nhỏ càng tốt để giúp dẫn các tính năng tiếp theo.
-**Kiểm chứng**
-
-
-- Nhằm đảm bảo rằng những Story có thể kiểm chứng được, để cả khách hàng và nhà phát triển có thể chắc chắn rằng tính năng đã được phát triển theo cách phù hợp với cả hai bên.
-
-**
-*NHỮNG NGUYÊN TẮC NÀY THỰC SỰ CUNG CẤP MỘT FRAMEWORK GIÚP. CHÚNG TA CÓ THỂ SỬ DỤNG KHI CHÚNG TA VIẾT STORY ĐỂ ĐẢM BẢO RẰNG CHÚNG HOÀN CHỈNH HƠN VÀ HỮU ÍCH HƠN  TRONG THỰC TẾ.***
- 
 ---
+##ĐẶC TẢ
+###Nguyên tắc INVEST
+
+**V ( Valuable) - Đánh giá User story**
+
+-  Đánh giá giá trị của một tính năng tại thời điểm mà chúng ta đang cân nhắc xây dựng nó.
+
+
+**E (Estimable) - Ước tính các tính năng**
+
+-  Phải đảm bảo có sự hiểu biết cụ thể và thực tế về chi phí cho những tính năng thực sự quan trọng.
+
+---
+##ĐẶC TẢ
+###Nguyên tắc INVEST
+
+**S (Small) - Các tính năng nhỏ**
+
+- User stories nên càng nhỏ càng tốt .
+
+**T (Testable) - Kiểm chứng**
+
+- Để cả khách hàng và nhà phát triển có thể chắc chắn rằng tính năng đã được phát triển theo cách phù hợp với cả hai bên.
+
+
+---
+##ĐẶC TẢ
 ## User Story và ví dụ về INVEST  #
 
 ###Một ví dụ cụ thể về User story:
-- Như một prof ( giáo sư ), tôi muốn tạo ra một tập hợp các Repo để học sinh có thể thực hiện công việc của mình. 
-####bước 1:
-+ vai trò : là giáo sư
-+ mục đích: tạo ra các repo
-+ lợi ích: học sinh có thể làm công việc của mình
-####bước 2
-+ cần làm: respository names, student ids trong trường hợp này nó sẽ là các ID sinh viên và sẽ là tên người dùng GitHub
-####bước 3
-+ cần chạy nó như 1 command riêng lẻ
-+ các test cases tự động
-+ hàm ý các test case: lập trình kiểm chứng được
-###bước 4
-+ có thể sử dụng Github manager
-####bước 5
-+ ước tính chi phí: 1.5 units (units phụ thuộc vào team)
-=> biết được input, định nghĩa sản phẩm và các kiểm tra nó và có 1 ước tính rõ ràng về chi phí
+- Như một prof ( giáo sư ), tôi muốn tạo ra một tập hợp các Repo để học sinh có thể thực hiện công việc của mình.
+
+**Bước 1: Independent- Độc lập**
+
+-vai trò : là giáo sư
+- mục đích: tạo ra các repo
+
+
+**Bước 2 : Negotiable - Thỏa thuận**
+
+-cần làm: respository names, student ids trong trường hợp này nó sẽ là các ID sinh viên và sẽ là tên người dùng GitHub
+
 ---
-##Decomposing User Stories : 
-###phân tách User Story thành những User story nhỏ hơn, dễ implement hơn
-###Phần 1 : 
-- Xác định các role, goals, benefit, limitation, notes, cost của câu chuyện 
+##ĐẶC TẢ
+###Một ví dụ cụ thể về User story:
 
-- Xây dựng DoD
+**Bước 3: Valuable - Đánh giá**
 
+ Lợi ích: học sinh có thể làm công việc của mình
+
+
+**Bước 4: Small - Tính năng nhỏ**
+
++ có thể sử dụng Github manager
+
+**Bước 5: Estimable - Ước tính**
+
+---
+##ĐẶC TẢ
+###Một ví dụ cụ thể về User story:
+
++ ước tính chi phí: 1.5 units (units phụ thuộc vào team)
+
+**Bước 6: Valuable- Đánh giá**
+
+- cần chạy nó như 1 command riêng lẻ
+- các test cases tự động
+- hàm ý các test case: lập trình kiểm chứng được
+
+
+=> biết được input, định nghĩa sản phẩm và các kiểm tra nó và có 1 ước tính rõ ràng về chi phí
+
+---
+##ĐẶC TẢ
+##Phân tích User Story : 
+###Phần 1 :
+- Xét ví dụ :  “Là một người chơi, mục tiêu của chúng ta như một người chơi là di chuyển Mario”
+- Xác định  Vai trò : player
+	+ Mục đích : di chuyển Mario
+	+ Lợi ích : tấn công/tránh
+	+ Giớ hạn : đầu vào từ bàn phím
+- Xây dựng DoD : “Bàn phím điều khiển hoạt động của Mario. Mario có thể lên level. Khi Mario va chạm với kẻ địch, một trong chúng có thể bị thương.”
 - Đánh giá DoD qua bộ tiêu chí INVEST
 
+
 ---
-##Decomposing User Stories : 
+##ĐẶC TẢ
+##Phân tích User Story
 ###Phần 2 : 
-- Xác định các thực thể trong câu chuyện(Entities)
+- Xác định các thực thể : Level, Mario, Enemy, Figure, Key
+- Liên kết các thực thể : Mario, Enemy với Figure, Figure và Level, Level và Key
+- Xác định các ràng buộc : Keypress, move, collide, hit
+- Tạo dựng kịch bản để tìm ra thiếu sót :
+	+ Điều gì xảy ra khi Mario di chuyển và va chạm với Enemy -> Level nhận keypress thông qua input
+	+ Level kiểm soát nhiều Figure -> thêm phương thức updates với level
+	+ Làm thế nào để biết Mario đang va chạm với kẻ thù -> thêm phương thức collide với Mario
 
-- Liên kết các thực thể với nhau(Link entities)
 
-- Xác định các hành động rang buộc thực thể và story(Bind actions)
 
-- Xây dựng kịch bản cho câu chuyện (Prototype)
-
-- Hình thức hóa các prototype đã xây dựng(Formalize)
 
 ---
-##Decomposing User Stories: 
-###Phần 3
+##ĐẶC TẢ
+###Phân tích User Story: Phần 3
 
 ####Hình thức hóa protoype bằng UML class diagram
 
 
 - Class Key:  gồm 1 method keyPressed(Event)
-- keyPressed sẽ gọi class Level
-- Class Level: 2 trường là mario có kiểu Mario, enemies là 1 mảng các Enemy, 2 phương thức input(command) và update()
-- Vì class Level chứa những nhân vật mario và enemy, nên tạo interface Figure, dùng composition
+	+ keyPressed sẽ gọi class Level
+- Class Level: 
+	+ mario: kiểu Mario, 
+	+ enemies: 1 mảng các Enemy
+	+ phương thức input(command) và update()
+- interface Figure là compositon đối với class Level
 - Figure: move(Dir), hit(), collision(Figure)
 
+
 ---
-##Decomposing User Stories: 
-###Phần 4
+##ĐẶC TẢ
+### Phân tích User Story: Phần 4
+![](http://assets/image/scenario.JPG)
+---
+### Phân tích User Story: Phần 4
 - Giả sử người dùng bấm left arrow <- và mario sẽ va chạm với một enemy
-- Đầu tiên xem xét trong class Key:
-	+ nó sẽ thông dịch và chuyển left arrow đó thành thứ mà class Level có thể dùng
-	+ Chuyển left arrow vào trường direction mã hóa những gì left arrow làm và đưa nó cho input() trong class Level
-	+ class Direction thêm vào 1 chút trừu tượng, làm cho code phức tạp hơn trong tương lai. Ví dụ nếu người dùng dùng phím A và D để di chuyển trái và phải thay vì arrows key, ta chỉ cần capture nó với vô hướng và class Level không bị ảnh hưởng.
-	+ và khi input lấy tham số này, nó gọi move với direction trên Mario, và Mario sẽ di chuyển và trả về
-	+ sau đó input gọi update(), update tất cả vị trí của enemies, nên có 1 vòng for duyệt toàn bộ enemy và update chúng. Chú ý tham số direction ở đây không phải do người dùng, mà là hướng mà enemy đang di chuyển vào lần cuối update
+- Đầu tiên xét trong class Key:
+	+ keyPress chuyển left arrow direction cho input() 
+	+ input() gọi move và Mario sẽ di chuyển theo direction đó
+	+ sau đó input gọi update(), update tất cả vị trí của enemies
+- Vì kịch bản là Mario sẽ va chạm với một enemy 
+	+ level sẽ gọi collide(Enemy)
+	+ Mario sẽ gọi hit() trên enemy
+
+---
+##ĐẶC TẢ
+### Phân tích User Story: Phần 5
+![](http://assets/image/formalizeUML.JPG)
