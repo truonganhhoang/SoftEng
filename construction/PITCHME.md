@@ -12,7 +12,12 @@
 
 ---
 
-![Tính dễ đọc](https://image.ibb.co/dyu2gn/revans2_Landscape_Parchment_Background.png)
+### Tính dễ đọc
+
+- Mục đích
+	- Dễ hiểu, không cần giải thích nhiều
+	- Dễ sửa đổi, bảo trì, nâng cấp hệ thống
+![Tính dễ đọc](https://image.ibb.co/mD4VuS/revans2_Landscape_Parchment_Background.png)
 
 ---
 
@@ -34,7 +39,7 @@
 
 ---
 
-![Static analize n linters](https://image.ibb.co/cbAKSS/2.png)
+![Static analize n linters](https://image.ibb.co/i0KkTn/2.png)
 
 ---
 
