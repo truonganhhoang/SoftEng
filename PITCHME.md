@@ -1,10 +1,7 @@
-## Công nghệ phần mềm
+## Công nghệ phần mềm 
+theo [softeng1x](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x)
 
-### Nhập môn
-
----
-
-### Nội dung 
+### Nội dung
 
 - [Giới thiệu ngôn ngữ lập trình](https://gitpitch.com/truonganhhoang/softeng/master?p=introduction#/)
 - [Quy trình phần mềm](https://gitpitch.com/truonganhhoang/softeng/master?p=process#/)
@@ -13,11 +10,5 @@
 - [Thiết kế mức cao](https://gitpitch.com/truonganhhoang/softeng/master?p=high-level-design#/)
 - [Thiết kế mức thấp](https://gitpitch.com/truonganhhoang/softeng/master?p=low-level-design#/)
 - [Xây dựng](https://gitpitch.com/truonganhhoang/softeng/master?p=construction#/)
-- [Đặc tả](https://gitpitch.com/trinhtl/softeng/master?p=specifications#/)
----
 
-@title[Tài liệu gitpitch]
-
-### Tài liệu về GitPitch
-### [Gitpitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
 
