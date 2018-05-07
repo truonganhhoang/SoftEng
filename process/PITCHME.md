@@ -1,4 +1,3 @@
-## Công nghệ phần mềm
 # Công nghệ phần mềm: Giới thiệu
 ## Quy trình
 *  Tổng quan module
@@ -209,25 +208,7 @@ Các đơn vị chương trình được tích hợp lại với nhau tạo thà
 
 
 ### Quy trình phần mềm
-- [Đặc tả phần mềm (specifications)](https://gitpitch.com/jindojojin/softeng/master?p=process/Specification#/)
-
-###  Phương pháp xoắn ốc
-- Đưa ra thập niên 80 khắc phục một số nhược điểm của quy trình thác nước.
-- Trong mô hình xoắn ốc, tạo ra sản phẩm nhiều lần, mỗi lần khách hàng sẽ xem và góp ý để phát triển tiếp.
-- Các bước thực hiện:
- 1. Lên kế hoạch: Xác định yêu cầu cho phiên bản, cho nguyên mẫu trong tương lai.
- 2. Phân tích rủi ro: Tìm những rủi ro của trong phiên bản tới là gì?
- 3. Xây dựng: Phát triển phần mềm và triển khai nó.
- 4. Xác nhận: Kiểm tra với khách hàng để thu thập phản hồi làm cơ sở chỉnh sửa phát triển tiếp.
-
----
-### Ưu nhược điểm
- - Ưu điểm: Xây dựng một sản phẩm sai có lẽ là nguyên nhân phổ biến nhất khiến các hệ thống thất bại trong
- thực tế. Mô hình xoắn ốc thực sự đang cố gắng để giải quyết rủi ro này bằng cách kết nối với khách hàng 
- cuối mỗi phiên bản thiết kế để chắc chắn rằng sản phẩm đáp ứng nhu cầu của họ.
- - Nhược điểm: Chờ phản hồi của khách hàng cũng có thể thực sự làm chậm quá trình phát triển phần mềm. Khách hàng có 
-thể trì hoãn hoặc đưa ra phản hồi ngay lập tức.
-
+- [Đặc tả phần mềm (specifications)](https://gitpitch.com/jindojojin/softeng/master?p=process/Specification#/
 ---
 # EXETREME PROGRAMMING
 
