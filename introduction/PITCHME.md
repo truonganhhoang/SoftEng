@@ -13,14 +13,12 @@
 ---
 
 ### Ngôn ngữ lập trình là gì?
-
 - Ngôn ngữ lập trình đóng vai trò trung gian giữa người và máy tính.
 - Hình thức hóa ý tưởng của lập trình viên sang cách cách máy tính có thể hiểu và thực hiện.
 
 ---
 
 ### Đặc trưng của ngôn ngữ lập trình
-
 - Có rất nhiều ngôn ngữ lập trình khác nhau.
 - Chúng phân biệt bằng các yếu tố sau: 
 	+ Cú pháp của ngôn ngữ.
@@ -30,9 +28,8 @@
 ---
 
 ### Ngữ nghĩa của ngôn ngữ lập trình
-- Mỗi ngôn ngữ lập trình lại có các đặc ngữ riêng của mình.
 - Một chương trình có thể có cú pháp hợp lệ nhưng lại vô nghĩa.
-- Ví dụ: "foo == foo".
+	- Ví dụ: "foo == foo".
 - Cần phân biệt khái niệm cú pháp (syntax) và ngữ nghĩa (semantics) của ngôn ngữ lập trình. 
 - Cùng cú pháp nhưng ở hai ngôn ngữ có thể có hai nghĩa khác nhau. 
 	- Sự khác biệt đó có thể là nguyên nhân của lỗi,
@@ -41,7 +38,6 @@
 ---
 
 ### Gỡ lỗi
-
 - Một lập trình giỏi là người sử dụng được các kỹ thuật gỡ lỗi (debug):
 	- Đặt một điểm dừng trong chương trình.
 	- Kiểm tra giá trị của các biến trong chương trình có đúng như dự kiến.
@@ -49,7 +45,6 @@
 
 ---
 ### Thông dịch và biên dịch
-
 - Ngôn ngữ lập trình có thể phân chia thành:
 	+ Ngôn ngữ lập trình biên dịch.
 	+ Ngôn ngữ lập trình thông dịch.
@@ -86,16 +81,15 @@
 
 ### Biên dịch
 
-- Đối với ngôn ngữ lập trình biên dịch, khi chương trình sẽ được dịch (bằng trình biên dịch) toàn bộ thành mã máy rồi mới thực thi.
+- Đối với ngôn ngữ lập trình biên dịch, chương trình sẽ được chuyển thành mã máy để thực thi.
 - Lợi ích: 
 	+ Phát hiện ra các lỗi cú pháp và kiểm tra tính chính xác trong mã nguồn. 
 	+ Không quan trọng thứ tự mã nguồn.   
 
 ---
-
 ### Ví dụ biên dịch 1
 
-- Một ví dụ với Java: 
+- Chương trình Java sau sẽ chạy bình thường 
 ~~~java
 	class myClass {
 		public static void main(String[] args){
@@ -107,24 +101,21 @@
 		}
 	}
 ~~~
-- Ví dụ trên sẽ chạy bình thường.
----
 
+---
 ### Ví dụ biên dịch 2
 
-- Một ví dụ khác với JavaScript: 
+- Chương trình JavaScript sau cũng chạy bình thường: 
 ~~~javascript
 	m1();
 	function m1() {
 		console.log('m1');
 	}
 ~~~
-- Ví dụ trên cũng sẽ chạy bình thường.
 
 ---
 
 ### Kiểu của ngôn ngữ lập trình
-
 - Ngôn ngữ lập trình còn có thể phân chia thành:
 	+ Ngôn ngữ kiểu tĩnh.
 	+ Ngôn ngữ kiểu động.
@@ -133,8 +124,9 @@
 
 ### Ngôn ngữ kiểu tĩnh
 
-- Đối với biến, ta phải khai báo biến kèm kiểu dữ liệu cụ thể của nó.
+- Ta phải khai báo biến kèm kiểu dữ liệu cụ thể của nó.
 - Trình biên dịch sẽ đi kiểm tra xem mọi thao tác với biến đó có thích hợp với kiểu dữ liệu của nó hay không.
+
 
 ---
 
