@@ -9,6 +9,8 @@
 - Tính dễ đọc
 - Phân tích chương trình tĩnh và linters
 - Tự động hóa
+- Mã xấu
+- Cải tiến mã nguồn
 
 ---
 
@@ -95,11 +97,10 @@
 - Martin Fowler đã xác định 5 loại mã xấu chính:
     - Bloaters : Kích thước của một số thành phần trong mã nguồn phần mềm làm chúng trở lên khó hiểu và khó thay đổi.
 	VD: phương thức dài, lớp quá lớn, phương thức có danh sách tham số dài.
-    - Lạm dụng cấu trúc hướng tượng.
+    - Lạm dụng cấu trúc hướng đối tượng.
     - Ngăn ngừa các thay đổi : làm cho khó cải tiến mã nguồn. 
 	VD : phải thực hiện cùng 1 sự thay đổi trong nhiều phần khác nhau của hệ thống.
-    - Mã thừa : phức tạp không cần thiết.
-	VD: mã trùng lặp.
+    - Mã thừa. VD: mã trùng lặp, mã chết.
     - Kết hợp không cần thiết.
 
 ---
