@@ -17,6 +17,11 @@
 - Mục đích
 	- Dễ hiểu, không cần giải thích nhiều
 	- Dễ sửa đổi, bảo trì, nâng cấp hệ thống
+	
+--- 
+
+### Tính dễ đọc
+
 ![Tính dễ đọc](https://image.ibb.co/mD4VuS/revans2_Landscape_Parchment_Background.png)
 
 ---
@@ -25,17 +30,52 @@
 
 - Để code dễ đọc cần tránh
     - Đặt tên không rõ
-    - Deep nesting
+    - Code lồng nhau (deep nesting)
     - Sử dụng phong cách cá nhân
     - Không comment
 
 ---
 
-![Đặt tên không rõ](https://image.ibb.co/c7uqZ7/1.png)
+### Đặt tên không rõ
+
+- Ví dụ: 
+
+if(!opponent.dead && figure.q2q(opponent)) {
+	figure.hit(opponent);
+	opponent.hit(opponent);
+}
+
 
 ---
 
-![Deep nesting](https://image.ibb.co/gXPPu7/Untitled.png)
+### Code lồng nhau (deep nesting)
+
+- Ví dụ:
+
+for(var i= this.figures.length;; i--) {
+	var figure = this.figures[i];
+	if(figure.dead) {
+		if(!figure.death()) {
+			if(figure instanceof Mario)
+				return this.reload();
+			figure.view.remove();
+			this.figures.splice(i, deleteCount: 1);
+		} else 
+			figure.playFrame();
+	}else {
+		if(i) {
+			for (var j = i;; j--) {
+				if(figure.dead)
+					break;
+				var opponent = this.figures[j];
+				if(!opponent.dead && figure.q2q(opponent)) {
+					figure.hit(opponent);
+					opponent.hit(opponent);
+				}
+			}
+		}
+	}
+}
 
 ---
 
