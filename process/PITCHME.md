@@ -1,4 +1,149 @@
 ## Quy trình phần mềm
+*  Tổng quan 
+*  Vì sao cần phải xây dựng quy trình?
+*  Quy trình cổ điển
+
+---
+
+### Tổng quan
+- Giới thiệu một số quy trình phát triển phần mềm 
+- Các ưu và nhược điểm của mỗi phương pháp,
+- Cách chọn quy trình phù hợp theo tính chất của dự án và đội phát triển
+
+---
+### Mục tiêu
+1. Tìm hiểu về các bên liên quan và các loại tài liệu họ sử dụng để liên lạc trong quá trình phát triển phần mềm.
+2. Tìm hiểu về quy trình phần mềm truyền thống, bao gồm cả phương thức thác nước và xoắn ốc.
+3. Tìm hiểu về quy trình phầm mềm linh hoạt hiện đại, lập trình cực hạn, hướng phát triển thử nghiệm, và phương pháp scrum.
+
+--- 
+
+### Quy trình 
+- Xây dựng quy trình chính là trả lời các câu hỏi:
+    - Chúng ta đang cố gắng xây dựng cái gì?
+    - Ai là người tham gia vào toàn bộ quá trình phát triển phần mềm?
+    - Các nhóm sẽ phối hợp với nhau như thế nào? 
+    - Họ sẽ thực sự xây dựng hệ thống như thế nào?
+    - Khi nào tất cả sẽ được hoàn thành?
+
+---
+### Các bên liên quan
+Các bên liên quan phải giao tiếp hiệu quả và có sự đồng thuận về cách xây dựng hệ thống phần mềm.
+
+- Nhà phát triển (Developers):
+    - Biến ý tưởng, tài liệu thành sản phẩm 
+- Đội kiểm định chất lượng (QA team): 
+    - Xác nhận sản phẩm hoạt động, đảm bảo rằng sản phẩm có thể chạy trong thực tế và có thể triển khai
+- Quản lý (Management): 
+    - Tham gia để giúp phối hợp giữa các nhóm khác nhau.
+- Đội tiếp thị và bán hàng  (Sales and marketing team):
+    - Bán sản phẩm cho khách hàng
+- Người dùng (Users): 
+    - Người sử dụng sản phẩm. Chúng ta hy vọng họ sẽ gửi lại những phản hồi về sản phẩm.
+- Đội hỗ trợ (Support team):
+    - Đội hỗ trợ người dùng liên tục, cung cấp phản hồi của người dùng cho đội kỹ thuật.
+
+---
+### Tài liệu
+
+- Specification: tài liệu đặc tả hệ thống
+- Development: tài liệu về cách phối hợp trong phát triển
+- Validation: tài liệu xác nhận
+- Deployment / Evolution : Các tài liệu triển khai và nâng cấp.
+
+--- 
+
+### Specification (Tài liệu đặc tả)
+- Đưa ra nhiệm vụ, mục tiêu kinh doanh, và yêu cầu bản thân.
+- Chủ yếu dành cho bên quản lý, người dùng, bán hàng ( những bên xác định hệ thống cần chức năng gì ) 
+
+--- 
+### Development (Tài liệu phát triển):
+- Kế hoạch kiến trúc hệ thống, kế hoạch thiết kế, kế hoạch thực hiện
+- Chủ yếu dành cho bên quản lý, đội phát triển và đội kiểm định chất lượng
+
+---
+
+### Validation (Tài liệu xác nhận):
+- Kế hoạch kiểm tra sản phẩm, đánh giá rủi ro
+- Đặc biệt quan trọng cho đội kiểm định chất lượng
+   
+### Deployment / Evolution (Tài liệu triển khai và nâng cấp):
+- Bao gồm kế hoạch phát triển và chiến lược bảo trì
+
+---
+
+### Tài liệu
+- Tài liệu phần mềm giúp giảm rủi ro liên quan đến việc xây dựng các sản phẩm phần mềm
+- Mọi người làm việc trên cùng một kế hoạch và cùng nắm rõ những gì đang và sẽ được xây dựng
+    - Nếu chỉ nói miệng không có tài liệu sẽ rất khó giải quyết khi mâu thuẫn, không nhất quán xảy ra
+
+---
+
+## Quy trình cổ điển
+- Thác nước và 
+- Xoắn ốc
+
+---
+### Mô hình thác nước
+* Đặc tả yêu cầu
+* Thiết kế
+* Cài đặt
+* Tích hợp
+* Bảo trì
+---
+### Mô hình thác nước
+#### 1. Đặc tả yêu cầu:
+- Xác định các đơn vị mà hệ thống phải cung cấp các ràng buộc trong quá trình vận hành và phát triển
+- xác định mục tiêu đặt ra với hệ thống là gì qua việc bàn với khách hàng, sau đó tư liệu hóa các yêu cầu thu được trong tài liệu.
+
+---
+### Mô hình thác nước
+#### 2. Thiết kế:
+- Phân chia các yêu cầu cho hệ thống phần mềm, phần cứng, thiết lập nên các kiến trúc hệ thống phần mềm.
+- Tiến hành thiết kế phần mềm bằng cách xây dựng và mô tả hệ thống phần mềm con cấu thành nên phầm mềm được xây dựng, và quan hệ giữa các hệ thống.
+
+---
+### Mô hình thác nước
+#### 3. Cài đặt:
+Chuyển bản thiết kế thành một tập hợp các chương trình hoặc các đơn vị chương trình.
+
+---
+### Mô hình thác nước
+#### 4. Tích hợp:
+Các đơn vị chương trình được tích hợp lại với nhau tạo thành hệ thống hoàn chỉnh.
+
+
+---
+### Mô hình thác nước
+#### 5. Bảo trì:
+Đưa phần mềm vao tiến hành sử dụng trong thực tế và tiến hành các sửa đổi cầ thiết nếu người dùng phát hiện ra khiếm khuyết.
+
+---
+### Mô hình thác nước
+* Là mô hình cổ điển
+* Phương pháp áp dụng một lần
+* Điều khiển hiệu quả
+* Phạm vi giới hạn của vòng lặp
+* Vòng đời dài
+---
+### Mô hình thác nước
+* Không thích hợp với các hệ thống không rõ ràng
+* Trong mô hình thác nước, năm pha trên phải thực hiện một cách tuần tự, kết thúc pha trước rồi mới thực hiện pha tiếp theo.
+* Mô hình này chỉ thích hợp khi yêu cầu đã đuợc làm rõ ràng và những thay đổi sẽ được giớ hạn một cách rõ ràng trong quá trình thiết kế.
+
+
+---
+### Mô hình thác nước
+- Ưu điểm:
+    * Phù hợp với các dự án nhỏ và có yêu cầu xác định.
+    * Dễ phân công công việc.
+    * kiến trúc ổn định.
+- Nhược điểm:
+    * Không phù hợp với dự án lớn.
+    * Thời gian thực hiện lâu.
+
+---
 
 ###  Phương pháp xoắn ốc
 - Đưa ra thập niên 80 nhằm khắc phục một số nhược điểm của quy trình thác nước.
@@ -16,31 +161,36 @@
 ---
 
 ### Ưu nhược điểm
- - Ưu điểm: giảm thiểu rủi ro bằng cách trao đổi với khách hàng sau mỗi phiên bản.
+ - Ưu điểm: Giảm thiểu rủi ro bằng cách trao đổi với khách hàng sau mỗi phiên bản.
 
  - Nhược điểm: Chờ phản hồi của khách hàng có thể làm chậm quá trình phát triển phần mềm. 
     - Khách hàng nhiều khi không phản hồi được nhanh.
 
 ---
 
-## Phương pháp Agile
-
-- Xuất hiện đầu những năm 2000 và thay đổi nhiều so với các quy trình truyền thống
-- Cho phép đội phát triển linh hoạt và tập trung vào hiệu quả mang lại
+## Quy trình hiện đại
+* Phương pháp linh hoạt (Agile Methods)
+    * Lập trình cực đoan (XP)
+    * Scrum
 
 ---
 
+## Phương pháp Agile
+- Xuất hiện đầu những năm 2000
+- Tỏ ra hiệu quả, vượt trội so với các phương pháp phát triển truyền thống
+- Cho phép người phát triển trở nên linh hoạt hơn và sớm hoàn thiện với tốc độ cao
+
+--- 
+
 ### Tuyên ngôn Agile
-
 Gồm 12 nguyên lý, nhưng chỉ có 4 nguyên lý trọng tâm:
-
 - Vai trò cá nhân tương tác quan trọng hơn quy trình và công cụ
 - Sản phẩm dùng được quan trọng hơn tài liệu đầy đủ
 - Cộng tác với khách hàng quan trọng hơn các điều khoản hợp đồng
 - Sẵn sàng thay đổi quan trọng hơn bám theo kế hoạch
 
 ---
-### Ưu điểm của phương pháp agile
+### Ưu điểm của phương pháp Agile
 - Ưu tiên thực hiện những việc thiết thực, mang lại hiệu quả trước
 - Thường xuyên lấy phản hồi của khách hàng trong suốt quá trình phát triển
 - Linh hoạt và sẵn sàng thay đổi vì tính chất của phần mềm thường thay đổi
@@ -75,28 +225,6 @@ Gồm 12 nguyên lý, nhưng chỉ có 4 nguyên lý trọng tâm:
 - Scrum là phương pháp được biết đến rộng rãi trong họ phương pháp Agile
 - Trong Scrum khái niệm product backlog - là danh sách theo thứ tự ưu tiên các tính năng, các công việc của dự án cần làm.
 - Chia dự án thành các giai đoạn ngắn từ 1 đến 3 tuần.
-
----
-
-### Các vai chính trong Scrum
-
-- Chủ sản phẩm (producnt owner)
-- Thầy quy trình (Scrum master)
-- Đội phát triển (team)
-
----
-
-### Chủ sản phẩm
-
-- Là những người đại diện cho bên khách hàng 
-- Họ có nhiệm vụ đưa ra thứ tự ưu tiên các công việc cần làm, và giúp đội phát triển hiểu rõ yêu cầu, nghiệp vụ
-
----
-
-### Thầy quy trình
-
-- Là người nắm chắc quy trình Scrum và hỗ trợ toàn đội làm đúng theo quy trình
-- Họ không quản lý đội phát triển, mà chỉ quản lý việc tuân thủ quy trình của đội phát triển
 
 ---
 
@@ -144,6 +272,6 @@ Gồm 12 nguyên lý, nhưng chỉ có 4 nguyên lý trọng tâm:
 
 #### Giai đoạn nghi thức
 
-* Là giai đoạn mọi người nhìn lại sprint vừa thực hiện
-* Có thể công bố những bổ sung, nâng cấp cho sản phẩm (nếu hoàn thành mục tiêu của sprint)
-* Cũng là giai đoạn rút kinh nghiệm, chia sẻ kiến thức, kinh nghiệm, bài học cho nhau để cùng nâng cao trình độ, kinh nghiệm
+- Là giai đoạn mọi người nhìn lại sprint vừa thực hiện
+- Có thể công bố những bổ sung, nâng cấp cho sản phẩm (nếu hoàn thành mục tiêu của sprint)
+- Cũng là giai đoạn rút kinh nghiệm, chia sẻ kiến thức, kinh nghiệm, bài học cho nhau để cùng nâng cao trình độ, kinh nghiệm
