@@ -3,8 +3,8 @@ theo [softeng1x](https://www.edx.org/course/software-engineering-introduction-ub
 
 ### Nội dung
 
-- [Giới thiệu ngôn ngữ lập trình](https://gitpitch.com/truonganhhoang/softeng/master?p=introduction#/)
-- [Quy trình phần mềm](https://gitpitch.com/truonganhhoang/softeng/master?p=process#/)
+- [Giới thiệu](https://gitpitch.com/truonganhhoang/softeng/master?p=introduction#/)
+- [Quy trình](https://gitpitch.com/truonganhhoang/softeng/master?p=process#/)
 - [Đặc tả](https://gitpitch.com/truonganhhoang/softeng/master?p=specifications#/)
 - [Kiểm thử](https://gitpitch.com/truonganhhoang/softeng/master?p=testing#/)
 - [Thiết kế mức cao](https://gitpitch.com/truonganhhoang/softeng/master?p=high-level-design#/)
