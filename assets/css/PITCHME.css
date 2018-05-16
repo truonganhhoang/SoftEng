@@ -5,6 +5,8 @@
  * https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
   background: #fff;
   background-color: #fff;
@@ -120,4 +122,13 @@ h1, h2, h3, h4, h5, h6 {
 .reveal h6 {
   font-size: 1.0em;
   font-style: italic;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul li ul li{
+  font-size: .85em;
+  color: steelblue;
 }
